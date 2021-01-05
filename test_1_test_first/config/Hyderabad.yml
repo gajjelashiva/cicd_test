@@ -1,7 +1,7 @@
 ---
 type: cloudgenix template
 version: 1.0
-# Created at 2021-01-05T04:59:03.542434Z
+# Created at 2021-01-05T05:19:30.512201Z
 # by system_100@cyberdyne.com
 sites v4.5:
   Hyderabad:
@@ -33,6 +33,7 @@ sites v4.5:
       subnet: 192.168.150.0/24
       tags:
     element_cluster_role: SPOKE
+    elements v2.3: {}
     extended_tags:
     location:
       description:
