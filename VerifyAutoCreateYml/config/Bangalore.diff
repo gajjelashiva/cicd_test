@@ -1,0 +1,22 @@
+--- /tmp/ci/100/cicd_test/VerifyAutoCreateYml/config/Bangalore.yml
++++ /tmp/ci/100/Bangalore_controller.yml
+@@ -1,8 +1,9 @@
+ ---
+ type: cloudgenix template
+ version: 1.0
+-# Created at 2021-01-05T04:59:03.542434Z
++# Created at 2021-01-13T11:40:18.881430Z
+ # by system_100@cyberdyne.com
++# FROM_CLOUDBLADE
+ sites v4.5:
+   Bangalore:
+     address:
+@@ -40,7 +41,7 @@
+         - SPOKE
+         cluster_insertion_mode:
+         cluster_member_id:
+-        connected: true
++        connected: false
+         deployment_op:
+         description: shiva-vm
+         element_security_zones v2.0: []
