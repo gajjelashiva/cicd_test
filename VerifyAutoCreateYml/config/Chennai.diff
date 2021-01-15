@@ -1,0 +1,22 @@
+--- /tmp/ci/100/cicd_test/VerifyAutoCreateYml/config/Chennai.yml
++++ /tmp/ci/100/Chennai_controller.yml
+@@ -1,8 +1,9 @@
+ ---
+ type: cloudgenix template
+ version: 1.0
+-# Created at 2021-01-05T08:01:30.575839Z
++# Created at 2021-01-15T11:41:14.920992Z
+ # by system_100@cyberdyne.com
++# FROM_CLOUDBLADE
+ sites v4.5:
+   Chennai:
+     address:
+@@ -13,7 +14,7 @@
+       street: test12345
+       street2: thisistryupdatedbyCLoudblad
+     admin_state: active
+-    description: BangalorelocationupdatedbyCloudBlade
++    description: Updated By Script
+     dhcpservers v2.1:
+     - broadcast_address: 192.168.150.255
+       custom_options:
