@@ -1,0 +1,22 @@
+--- /tmp/ci/100/cicd_test/VerifyAutoCreateYml/config/Pune.yml
++++ /tmp/ci/100/Pune_controller.yml
+@@ -1,8 +1,9 @@
+ ---
+ type: cloudgenix template
+ version: 1.0
+-# Created at 2021-01-05T05:19:30.512201Z
++# Created at 2021-01-15T12:01:11.910468Z
+ # by system_100@cyberdyne.com
++# FROM_CLOUDBLADE
+ sites v4.5:
+   Pune:
+     address:
+@@ -10,7 +11,7 @@
+       country: India
+       post_code: '512345'
+       state: Maharashtra
+-      street: test12345
++      street: test123452134
+       street2: thisistryupdatedbyCLoudblad
+     admin_state: active
+     description: BangalorelocationupdatedbyCloudBlade
