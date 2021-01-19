@@ -1,0 +1,5 @@
+INFO: 01/19/2021 04:12:59 AM MESSAGE: Created Site Chennai.
+INFO: 01/19/2021 04:12:59 AM MESSAGE:  Created waninterface Circuit to AIRTEL-boradband-network1.
+INFO: 01/19/2021 04:12:59 AM MESSAGE:  Created dhcpserver for 192.168.150.0/24.
+INFO: 01/19/2021 04:12:59 AM MESSAGE: No Change for Site Chennai state (active).
+INFO: 01/19/2021 04:13:00 AM MESSAGE: DONE
