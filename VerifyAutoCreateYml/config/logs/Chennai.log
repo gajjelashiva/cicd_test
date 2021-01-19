@@ -3,3 +3,4 @@ INFO: 01/19/2021 04:26:06 AM MESSAGE:  No Change for Waninterface Circuit to AIR
 INFO: 01/19/2021 04:26:06 AM MESSAGE:  No Change for Dhcpserver for 192.168.150.0/24.
 INFO: 01/19/2021 04:26:07 AM MESSAGE: No Change for Site Chennai state (active).
 INFO: 01/19/2021 04:26:07 AM MESSAGE: DONE
+INFO: 01/19/2021 04:27:21 AM Found 'CI_IGNORE' tag for site. Skipping site
