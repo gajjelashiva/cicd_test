@@ -1,7 +1,7 @@
 ---
 type: cloudgenix template
 version: 1.0
-# Created at 2021-01-25T10:11:45.834358Z
+# Created at 2021-01-25T10:13:40.654400Z
 # by system_100@cyberdyne.com
 sites v4.5:
   Bangalore:
@@ -40,7 +40,7 @@ sites v4.5:
         - SPOKE
         cluster_insertion_mode:
         cluster_member_id:
-        connected: false
+        connected: true
         deployment_op:
         description: shiva-vm
         element_security_zones v2.0: []

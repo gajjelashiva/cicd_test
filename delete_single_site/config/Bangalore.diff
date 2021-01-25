@@ -4,8 +4,8 @@
  ---
  type: cloudgenix template
  version: 1.0
--# Created at 2021-01-25T09:58:15.692550Z
-+# Created at 2021-01-25T10:11:26.819633Z
+-# Created at 2021-01-25T10:11:45.834358Z
++# Created at 2021-01-25T10:13:13.204344Z
  # by system_100@cyberdyne.com
 +# FROM_CLOUDBLADE
  sites v4.5:
@@ -15,8 +15,8 @@
          - SPOKE
          cluster_insertion_mode:
          cluster_member_id:
--        connected: true
-+        connected: false
+-        connected: false
++        connected: true
          deployment_op:
          description: shiva-vm
          element_security_zones v2.0: []
@@ -28,64 +28,3 @@
              sub_interface:
              tags:
              type: port
-@@ -93,14 +93,6 @@
-               full_duplex: false
-               speed: 0
-             ipv4_config:
--              dhcp_config:
--              dns_v4_config:
--                name_servers:
--                - 8.8.8.8
--              routes:
--              static_config:
--                address: 192.168.150.1/24
--              type: static
-             mac_address:
-             mtu: 1500
-             nat_address:
-@@ -185,7 +177,7 @@
-             tags:
-             type: port
-             used_for: public
--          '5.1001':
-+          '5':
-             admin_up: true
-             attached_lan_networks:
-             bound_interfaces:
-@@ -199,22 +191,20 @@
-               speed: 0
-             ipv4_config:
-             mac_address:
--            mtu: 0
--            nat_address:
--            nat_pools:
--            nat_port: 0
--            nat_zone_id:
--            network_context_id:
--            parent: '5'
--            pppoe_config:
--            scope: local
--            service_link_config:
--            site_wan_interface_ids:
--            sub_interface:
--              native_vlan: false
--              vlan_id: 1001
--            tags:
--            type: subinterface
-+            mtu: 1500
-+            nat_address:
-+            nat_pools:
-+            nat_port: 0
-+            nat_zone_id:
-+            network_context_id:
-+            parent:
-+            pppoe_config:
-+            scope: local
-+            service_link_config:
-+            site_wan_interface_ids:
-+            sub_interface:
-+            tags:
-+            type: port
-             used_for: none
-           '6':
-             admin_up: true
