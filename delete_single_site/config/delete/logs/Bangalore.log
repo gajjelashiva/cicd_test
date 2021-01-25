@@ -470,3 +470,20 @@ RESPONSE DATA:
         }
     ]
 }
+INFO: 01/25/2021 10:14:19 AM MESSAGE: Beginning to DESTROY site Bangalore(16115692286160201)..
+INFO: 01/25/2021 10:14:20 AM MESSAGE: Un-assigning Element ION-SPOKE-3k(a28d1542-f610-abd1-c741-97a1cd6d0045) bound to 16115692286160201.
+INFO: 01/25/2021 10:14:20 AM MESSAGE:  Removing LAN Networks/WAN Interfaces from 6.
+INFO: 01/25/2021 10:14:21 AM MESSAGE:  Removing LAN Networks/WAN Interfaces from 5.1001.
+INFO: 01/25/2021 10:14:21 AM MESSAGE:  Removing LAN Networks/WAN Interfaces from 5.
+INFO: 01/25/2021 10:14:23 AM MESSAGE:  Removing LAN Networks/WAN Interfaces from 3.
+INFO: 01/25/2021 10:14:24 AM MESSAGE:  Removing LAN Networks/WAN Interfaces from 4.
+INFO: 01/25/2021 10:14:24 AM MESSAGE:  Removing LAN Networks/WAN Interfaces from controller 1.
+INFO: 01/25/2021 10:14:25 AM MESSAGE:  Removing LAN Networks/WAN Interfaces from 2.
+INFO: 01/25/2021 10:14:25 AM MESSAGE:  Removing LAN Networks/WAN Interfaces from 1.
+INFO: 01/25/2021 10:14:25 AM MESSAGE:  Removing any leftover Element Security Zones and Spoke HA from ION-SPOKE-3k:
+INFO: 01/25/2021 10:14:28 AM MESSAGE:    No Change for Spoke HA in Element ION-SPOKE-3k.
+INFO: 01/25/2021 10:14:29 AM MESSAGE:  Deleting Unconfigured Waninterface Circuit to AIRTEL-boradband-network1.
+INFO: 01/25/2021 10:14:30 AM MESSAGE: Disabling site..
+INFO: 01/25/2021 10:14:31 AM MESSAGE: Updated Site Bangalore to state disabled.
+INFO: 01/25/2021 10:14:34 AM MESSAGE: Deleting Site Bangalore..
+INFO: 01/25/2021 10:14:34 AM MESSAGE: DONE
