@@ -864,3 +864,8 @@ INFO: 01/25/2021 10:07:12 AM MESSAGE:  Element: Code is at correct version 5.4.3
 INFO: 01/25/2021 10:07:12 AM MESSAGE:   Assigning Element ION-SPOKE-3k.
 INFO: 01/25/2021 10:07:13 AM MESSAGE:   Element ION-SPOKE-3k not yet in requested state(s): bound (is bound_in_progress). Waited so far 0 seconds out of 5.
 ERROR: 01/25/2021 10:07:19 AM ERROR: Element ION-SPOKE-3k state transition took longer than 5 seconds. Exiting.
+INFO: 01/25/2021 10:07:56 AM MESSAGE: No Change for Site Bangalore.
+INFO: 01/25/2021 10:07:57 AM MESSAGE:  No Change for Waninterface Circuit to AIRTEL-boradband-network1.
+INFO: 01/25/2021 10:07:58 AM MESSAGE:  No Change for Dhcpserver for 192.168.150.0/24.
+INFO: 01/25/2021 10:07:59 AM MESSAGE:   Element ION-SPOKE-3k not yet in requested state(s): ready, bound (is bound_in_progress). Waited so far 0 seconds out of 5.
+ERROR: 01/25/2021 10:08:06 AM ERROR: Element ION-SPOKE-3k state transition took longer than 5 seconds. Exiting.
