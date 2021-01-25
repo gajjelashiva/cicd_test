@@ -473,3 +473,23 @@ INFO: 01/25/2021 09:25:47 AM MESSAGE:  Element: Code is at correct version 5.4.3
 INFO: 01/25/2021 09:25:47 AM MESSAGE:   Assigning Element ION-SPOKE-3k.
 INFO: 01/25/2021 09:25:48 AM MESSAGE:   Element ION-SPOKE-3k not yet in requested state(s): bound (is bound_in_progress). Waited so far 0 seconds out of 5.
 ERROR: 01/25/2021 09:25:54 AM ERROR: Element ION-SPOKE-3k state transition took longer than 5 seconds. Exiting.
+INFO: 01/25/2021 09:26:19 AM MESSAGE: No Change for Site Bangalore.
+INFO: 01/25/2021 09:26:19 AM MESSAGE:  No Change for Waninterface Circuit to AIRTEL-boradband-network1.
+INFO: 01/25/2021 09:26:20 AM MESSAGE:  No Change for Dhcpserver for 192.168.150.0/24.
+INFO: 01/25/2021 09:26:22 AM MESSAGE:  Element: Code is at correct version 5.4.3-b9.
+INFO: 01/25/2021 09:26:24 AM MESSAGE:   No Change for Element ION-SPOKE-3k.
+INFO: 01/25/2021 09:26:25 AM MESSAGE:    Setting Subinterface parent for 5.1001 to default.
+INFO: 01/25/2021 09:26:25 AM MESSAGE:    No Change for Interface 5.
+INFO: 01/25/2021 09:26:25 AM MESSAGE:    Created interface 5.1001.
+INFO: 01/25/2021 09:26:26 AM MESSAGE:    Updated Interface 1 (Etag 33 -> 34).
+INFO: 01/25/2021 09:26:27 AM MESSAGE:    Updated Interface 2 (Etag 34 -> 35).
+INFO: 01/25/2021 09:26:27 AM MESSAGE:    No Change for Interface 3.
+INFO: 01/25/2021 09:26:27 AM MESSAGE:    No Change for Interface 4.
+INFO: 01/25/2021 09:26:27 AM MESSAGE:    No Change for Interface 6.
+INFO: 01/25/2021 09:26:27 AM MESSAGE:    No Change for Interface controller 1.
+INFO: 01/25/2021 09:26:27 AM MESSAGE:    No Change for Spoke HA in Element ION-SPOKE-3k.
+INFO: 01/25/2021 09:26:28 AM MESSAGE:    No Change for BGP Global Config 16115667568900122.
+INFO: 01/25/2021 09:26:30 AM MESSAGE:    No Change for NTP 16091366550820006.
+INFO: 01/25/2021 09:26:30 AM MESSAGE:    No Change for Toolkit 16091366715210050.
+INFO: 01/25/2021 09:26:30 AM MESSAGE: No Change for Site Bangalore state (active).
+INFO: 01/25/2021 09:26:31 AM MESSAGE: DONE
