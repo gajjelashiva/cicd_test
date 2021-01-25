@@ -842,3 +842,6 @@ RESPONSE DATA:
         }
     ]
 }
+INFO: 01/25/2021 10:41:34 AM MESSAGE: Beginning to DESTROY site Bangalore(16115709378330031)..
+INFO: 01/25/2021 10:41:34 AM MESSAGE: Un-assigning Element ION-SPOKE-3k(a28d1542-f610-abd1-c741-97a1cd6d0045) bound to 16115709378330031.
+INFO: 01/25/2021 10:41:35 AM MESSAGE:  Removing LAN Networks/WAN Interfaces from 3.
