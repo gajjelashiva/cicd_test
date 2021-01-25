@@ -593,3 +593,10 @@ INFO: 01/25/2021 09:39:40 AM MESSAGE:    No Change for NTP 16091366550820006.
 INFO: 01/25/2021 09:39:41 AM MESSAGE:    No Change for Toolkit 16091366715210050.
 INFO: 01/25/2021 09:39:42 AM MESSAGE: No Change for Site Bangalore state (active).
 INFO: 01/25/2021 09:39:45 AM MESSAGE: DONE
+INFO: 01/25/2021 09:41:55 AM MESSAGE: Created Site Bangalore.
+INFO: 01/25/2021 09:41:57 AM MESSAGE:  Created waninterface Circuit to AIRTEL-boradband-network1.
+INFO: 01/25/2021 09:41:57 AM MESSAGE:  Created dhcpserver for 192.168.150.0/24.
+INFO: 01/25/2021 09:41:58 AM MESSAGE:  Element: Code is at correct version 5.4.3-b9.
+INFO: 01/25/2021 09:41:59 AM MESSAGE:   Assigning Element ION-SPOKE-3k.
+INFO: 01/25/2021 09:42:00 AM MESSAGE:   Element ION-SPOKE-3k not yet in requested state(s): bound (is bound_in_progress). Waited so far 0 seconds out of 5.
+ERROR: 01/25/2021 09:42:06 AM ERROR: Element ION-SPOKE-3k state transition took longer than 5 seconds. Exiting.
