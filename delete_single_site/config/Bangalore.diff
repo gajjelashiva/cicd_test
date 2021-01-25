@@ -4,8 +4,8 @@
  ---
  type: cloudgenix template
  version: 1.0
--# Created at 2020-12-29T08:48:35.010577Z
-+# Created at 2021-01-25T08:48:43.231011Z
+-# Created at 2021-01-25T08:49:07.651271Z
++# Created at 2021-01-25T08:50:32.762730Z
  # by system_100@cyberdyne.com
 +# FROM_CLOUDBLADE
  sites v4.5:
@@ -15,8 +15,8 @@
          - SPOKE
          cluster_insertion_mode:
          cluster_member_id:
--        connected: true
-+        connected: false
+-        connected: false
++        connected: true
          deployment_op:
          description: shiva-vm
          element_security_zones v2.0: []
