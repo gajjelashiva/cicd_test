@@ -248,3 +248,6 @@ INFO: 01/25/2021 09:52:55 AM MESSAGE: Disabling site..
 INFO: 01/25/2021 09:52:55 AM MESSAGE: Updated Site Bangalore to state disabled.
 INFO: 01/25/2021 09:52:56 AM MESSAGE:   Element ION-SPOKE-3k not yet in requested state(s): ready, declaim_in_progress (is unbound_in_progress). Waited so far 0 seconds out of 5.
 ERROR: 01/25/2021 09:53:02 AM ERROR: Element ION-SPOKE-3k state transition took longer than 5 seconds. Exiting.
+INFO: 01/25/2021 09:54:27 AM MESSAGE: Beginning to DESTROY site Bangalore(16115681322350068)..
+INFO: 01/25/2021 09:54:27 AM MESSAGE: Un-assigning Element ION-SPOKE-3k(a28d1542-f610-abd1-c741-97a1cd6d0045) bound to 16115681322350068.
+INFO: 01/25/2021 09:54:27 AM MESSAGE:  Removing LAN Networks/WAN Interfaces from 3.
