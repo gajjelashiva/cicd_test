@@ -956,3 +956,120 @@ INFO: 01/25/2021 10:16:54 AM MESSAGE:    No Change for NTP 16091366550820006.
 INFO: 01/25/2021 10:16:56 AM MESSAGE:    No Change for Toolkit 16091366715210050.
 INFO: 01/25/2021 10:16:57 AM MESSAGE: No Change for Site Bangalore state (active).
 INFO: 01/25/2021 10:16:58 AM MESSAGE: DONE
+ERROR: 01/25/2021 10:17:48 AM ERROR: Element interfaces get failed: 
+REQUEST: GET /v4.9/api/tenants/100/sites/16115697236060049/elements/16091366545090253/interfaces
+REQUEST HEADERS:
+	User-Agent: python-requests/2.25.1 (CGX SDK v5.4.3b1)
+	Accept-Encoding: gzip, deflate
+	Accept: application/json
+	Connection: keep-alive
+	X-Auth-Token: <SENSITIVE - NOT SHOWN BY DEFAULT>
+REQUEST BODY:
+{}
+
+RESPONSE: 400 Bad Request
+RESPONSE HEADERS:
+	Server: nginx
+	Date: Mon, 25 Jan 2021 10:17:48 GMT
+	Content-Type: application/json; charset=utf-8
+	Content-Length: 234
+	Connection: keep-alive
+	Content-Security-Policy: default-src 'self'
+	X-Content-Type-Options: nosniff
+	X-Frame-Options: DENY
+	X-Permitted-Cross-Domain-Policies: master-only
+	X-XSS-Protection: 1; mode=block
+RESPONSE DATA:
+{
+    "_etag": 0,
+    "_content_length": "0",
+    "_schema": 0,
+    "_created_on_utc": 0,
+    "_updated_on_utc": 0,
+    "_status_code": "400",
+    "_request_id": "1611569868559021299998051010850108421491",
+    "_error": [
+        {
+            "code": "ELEMENT_NOT_FOUND",
+            "message": "Element not found."
+        }
+    ]
+}
+ERROR: 01/25/2021 10:18:54 AM ERROR: Element interfaces get failed: 
+REQUEST: GET /v4.9/api/tenants/100/sites/16115697236060049/elements/16091366545090253/interfaces
+REQUEST HEADERS:
+	User-Agent: python-requests/2.25.1 (CGX SDK v5.4.3b1)
+	Accept-Encoding: gzip, deflate
+	Accept: application/json
+	Connection: keep-alive
+	X-Auth-Token: <SENSITIVE - NOT SHOWN BY DEFAULT>
+REQUEST BODY:
+{}
+
+RESPONSE: 400 Bad Request
+RESPONSE HEADERS:
+	Server: nginx
+	Date: Mon, 25 Jan 2021 10:18:54 GMT
+	Content-Type: application/json; charset=utf-8
+	Content-Length: 234
+	Connection: keep-alive
+	Content-Security-Policy: default-src 'self'
+	X-Content-Type-Options: nosniff
+	X-Frame-Options: DENY
+	X-Permitted-Cross-Domain-Policies: master-only
+	X-XSS-Protection: 1; mode=block
+RESPONSE DATA:
+{
+    "_etag": 0,
+    "_content_length": "0",
+    "_schema": 0,
+    "_created_on_utc": 0,
+    "_updated_on_utc": 0,
+    "_status_code": "400",
+    "_request_id": "1611569934612014400005607471751870868203",
+    "_error": [
+        {
+            "code": "ELEMENT_NOT_FOUND",
+            "message": "Element not found."
+        }
+    ]
+}
+ERROR: 01/25/2021 10:19:14 AM ERROR: Element interfaces get failed: 
+REQUEST: GET /v4.9/api/tenants/100/sites/16115697236060049/elements/16091366545090253/interfaces
+REQUEST HEADERS:
+	User-Agent: python-requests/2.25.1 (CGX SDK v5.4.3b1)
+	Accept-Encoding: gzip, deflate
+	Accept: application/json
+	Connection: keep-alive
+	X-Auth-Token: <SENSITIVE - NOT SHOWN BY DEFAULT>
+REQUEST BODY:
+{}
+
+RESPONSE: 400 Bad Request
+RESPONSE HEADERS:
+	Server: nginx
+	Date: Mon, 25 Jan 2021 10:19:14 GMT
+	Content-Type: application/json; charset=utf-8
+	Content-Length: 234
+	Connection: keep-alive
+	Content-Security-Policy: default-src 'self'
+	X-Content-Type-Options: nosniff
+	X-Frame-Options: DENY
+	X-Permitted-Cross-Domain-Policies: master-only
+	X-XSS-Protection: 1; mode=block
+RESPONSE DATA:
+{
+    "_etag": 0,
+    "_content_length": "0",
+    "_schema": 0,
+    "_created_on_utc": 0,
+    "_updated_on_utc": 0,
+    "_status_code": "400",
+    "_request_id": "1611569954617003699995724974646140977281",
+    "_error": [
+        {
+            "code": "ELEMENT_NOT_FOUND",
+            "message": "Element not found."
+        }
+    ]
+}
