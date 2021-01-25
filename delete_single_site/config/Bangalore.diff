@@ -5,7 +5,7 @@
  type: cloudgenix template
  version: 1.0
 -# Created at 2021-01-25T10:13:40.654400Z
-+# Created at 2021-01-25T10:33:45.448183Z
++# Created at 2021-01-25T10:36:54.636136Z
  # by system_100@cyberdyne.com
 +# FROM_CLOUDBLADE
  sites v4.5:
@@ -80,3 +80,35 @@
              used_for: none
            '6':
              admin_up: true
+@@ -313,29 +303,12 @@
+         priority_policysetstack_id:
+         role: SPOKE
+         routing:
+-          bgp:
+-            global_config v2.2:
+-              admin_distance: 20
+-              adv_interval: 1
+-              graceful_restart: false
+-              hold_time: 90
+-              keepalive_time: 30
+-              local_as_num:
+-              maximum_paths: 1
+-              md5_secret:
+-              multi_hop_limit: 1
+-              peer_auth_type: none
+-              peer_retry_time: 120
+-              prefix_adv_type:
+-              prefix_adv_type_to_lan: default
+-              prefixes_to_adv_to_wan:
+-              router_id:
+-              stalepath_time: 120
++          bgp: {}
+           static v2.0: []
+         serial_number: a28d1542-f610-abd1-c741-97a1cd6d0045
+         software_version: 5.4.3-b9
+         spoke_ha_config:
+-        state: bound
++        state: bound_in_progress
+         tags:
+         tenant_id: '100'
+         toolkit v2.2:
