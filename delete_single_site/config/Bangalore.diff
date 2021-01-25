@@ -5,12 +5,21 @@
  type: cloudgenix template
  version: 1.0
 -# Created at 2021-01-25T09:29:47.524976Z
-+# Created at 2021-01-25T09:39:27.790551Z
++# Created at 2021-01-25T09:43:24.882940Z
  # by system_100@cyberdyne.com
 +# FROM_CLOUDBLADE
  sites v4.5:
    Bangalore:
      address:
+@@ -40,7 +41,7 @@
+         - SPOKE
+         cluster_insertion_mode:
+         cluster_member_id:
+-        connected: true
++        connected: false
+         deployment_op:
+         description: shiva-vm
+         element_security_zones v2.0: []
 @@ -75,7 +76,6 @@
              scope: local
              service_link_config:
@@ -80,12 +89,3 @@
              used_for: none
            '6':
              admin_up: true
-@@ -335,7 +325,7 @@
-         serial_number: a28d1542-f610-abd1-c741-97a1cd6d0045
-         software_version: 5.4.3-b9
-         spoke_ha_config:
--        state: bound
-+        state: bound_in_progress
-         tags:
-         tenant_id: '100'
-         toolkit v2.2:
