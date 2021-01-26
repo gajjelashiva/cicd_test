@@ -13,3 +13,8 @@ INFO: 01/26/2021 06:42:00 PM MESSAGE:  No Change for Waninterface Circuit to AIR
 INFO: 01/26/2021 06:42:01 PM MESSAGE:  No Change for Dhcpserver for 192.168.150.0/24.
 INFO: 01/26/2021 06:42:02 PM MESSAGE:   Element ION-SPOKE-3k not yet in requested state(s): ready, bound (is bound_in_progress). Waited so far 0 seconds out of 5.
 ERROR: 01/26/2021 06:42:08 PM ERROR: Element ION-SPOKE-3k state transition took longer than 5 seconds. Exiting.
+INFO: 01/26/2021 06:42:32 PM MESSAGE: No Change for Site Bangalore.
+INFO: 01/26/2021 06:42:35 PM MESSAGE:  No Change for Waninterface Circuit to AIRTEL-boradband-network1.
+INFO: 01/26/2021 06:42:36 PM MESSAGE:  No Change for Dhcpserver for 192.168.150.0/24.
+INFO: 01/26/2021 06:42:38 PM MESSAGE:   Element ION-SPOKE-3k not yet in requested state(s): ready, bound (is bound_in_progress). Waited so far 0 seconds out of 5.
+ERROR: 01/26/2021 06:42:44 PM ERROR: Element ION-SPOKE-3k state transition took longer than 5 seconds. Exiting.
