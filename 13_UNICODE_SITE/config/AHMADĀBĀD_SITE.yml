@@ -9,7 +9,7 @@ sites v4.5:
       street: null
       street2: null
     admin_state: disabled
-    description: "this Spoke for site1: AHMADABAD"
+    description: "this Spoke for site1:2 AHMADABAD"
     element_cluster_role: SPOKE
     elements v2.3: {}
     extended_tags: null
