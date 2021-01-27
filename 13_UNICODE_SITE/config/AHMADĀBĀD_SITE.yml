@@ -1,15 +1,15 @@
 ---
 sites v4.5:
-  "AHMAD\u0100B\u0100D_SITE":
+  "AHMADABAD_SITE":
     address:
-      city: "Ahmad\u0101b\u0101d"
+      city: "AHMADABAD"
       country: India
       post_code: null
       state: null
       street: null
       street2: null
     admin_state: disabled
-    description: "this Spoke for site : Ahmad\u0101b\u0101d"
+    description: "this Spoke for site : AHMADABAD"
     element_cluster_role: SPOKE
     elements v2.3: {}
     extended_tags: null
