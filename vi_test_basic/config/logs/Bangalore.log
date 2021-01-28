@@ -1,0 +1,46 @@
+INFO: 01/28/2021 10:34:24 AM MESSAGE: No Change for Site Bangalore.
+INFO: 01/28/2021 10:34:25 AM MESSAGE:  No Change for Waninterface Circuit to AIRTEL-boradband-network1.
+INFO: 01/28/2021 10:34:26 AM MESSAGE:  No Change for Dhcpserver for 192.168.150.0/24.
+INFO: 01/28/2021 10:34:27 AM MESSAGE:  Element: Code is at correct version 5.4.3-b9.
+INFO: 01/28/2021 10:34:29 AM MESSAGE:   No Change for Element ION-SPOKE-3k.
+INFO: 01/28/2021 10:34:29 AM MESSAGE:    Deleting Unconfigured Interface test.
+ERROR: 01/28/2021 10:34:30 AM ERROR: Could not delete Interface test: 
+REQUEST: DELETE /v4.9/api/tenants/100/sites/16115709378330031/elements/16091366545090253/interfaces/16117682698070000
+REQUEST HEADERS:
+	User-Agent: python-requests/2.25.1 (CGX SDK v5.4.3b1)
+	Accept-Encoding: gzip, deflate
+	Accept: application/json
+	Connection: keep-alive
+	X-Auth-Token: <SENSITIVE - NOT SHOWN BY DEFAULT>
+	Content-Length: 0
+REQUEST BODY:
+{}
+
+RESPONSE: 400 Bad Request
+RESPONSE HEADERS:
+	Server: nginx
+	Date: Thu, 28 Jan 2021 10:34:29 GMT
+	Content-Type: application/json; charset=utf-8
+	Content-Length: 260
+	Connection: keep-alive
+	Content-Security-Policy: default-src 'self'
+	X-Content-Type-Options: nosniff
+	X-Frame-Options: DENY
+	X-Permitted-Cross-Domain-Policies: master-only
+	X-XSS-Protection: 1; mode=block
+RESPONSE DATA:
+{
+    "_etag": 0,
+    "_content_length": "0",
+    "_schema": 0,
+    "_created_on_utc": 0,
+    "_updated_on_utc": 0,
+    "_status_code": "400",
+    "_request_id": "1611830069934013300001854641611862737591",
+    "_error": [
+        {
+            "code": "INTERFACE_CONFIG_CONFIGURATION_EXISTS",
+            "message": "Interface is configured."
+        }
+    ]
+}
