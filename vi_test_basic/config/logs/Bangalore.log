@@ -90,3 +90,8 @@ RESPONSE DATA:
         }
     ]
 }
+INFO: 01/28/2021 10:35:51 AM MESSAGE: No Change for Site Bangalore.
+INFO: 01/28/2021 10:35:52 AM MESSAGE:  No Change for Waninterface Circuit to AIRTEL-boradband-network1.
+INFO: 01/28/2021 10:35:57 AM MESSAGE:  No Change for Dhcpserver for 192.168.150.0/24.
+INFO: 01/28/2021 10:35:58 AM MESSAGE:  Element: Code is at correct version 5.4.3-b9.
+INFO: 01/28/2021 10:35:58 AM MESSAGE:   No Change for Element ION-SPOKE-3k.
