@@ -1,2 +1,2 @@
 declaim_element_on_unassign: true
-delete_resources: true
+delete_resources: false
