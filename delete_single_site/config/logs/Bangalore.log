@@ -1450,3 +1450,49 @@ INFO: 01/25/2021 11:05:06 AM MESSAGE:  No Change for Waninterface Circuit to AIR
 INFO: 01/25/2021 11:05:06 AM MESSAGE:  No Change for Dhcpserver for 192.168.150.0/24.
 INFO: 01/25/2021 11:05:07 AM MESSAGE:   Element ION-SPOKE-3k not yet in requested state(s): ready, bound (is bound_in_progress). Waited so far 0 seconds out of 5.
 ERROR: 01/25/2021 11:05:13 AM ERROR: Element ION-SPOKE-3k state transition took longer than 5 seconds. Exiting.
+INFO: 02/01/2021 09:15:53 AM MESSAGE: Updated Site Bangalore (Etag 8 -> 9).
+INFO: 02/01/2021 09:15:53 AM MESSAGE:  No Change for Waninterface Circuit to AIRTEL-boradband-network1.
+INFO: 02/01/2021 09:15:53 AM MESSAGE:  No Change for Dhcpserver for 192.168.150.0/24.
+INFO: 02/01/2021 09:15:55 AM MESSAGE:  Element: Code is at correct version 5.4.3-b9.
+INFO: 02/01/2021 09:15:56 AM MESSAGE:   No Change for Element ION-SPOKE-3k.
+INFO: 02/01/2021 09:15:59 AM MESSAGE:    Deleting Unconfigured Interface TestVI.
+ERROR: 02/01/2021 09:15:59 AM ERROR: Could not delete Interface TestVI: 
+REQUEST: DELETE /v4.9/api/tenants/100/sites/16115709378330031/elements/16091366545090253/interfaces/16119069513030202
+REQUEST HEADERS:
+	User-Agent: python-requests/2.25.1 (CGX SDK v5.4.3b1)
+	Accept-Encoding: gzip, deflate
+	Accept: application/json
+	Connection: keep-alive
+	X-Auth-Token: <SENSITIVE - NOT SHOWN BY DEFAULT>
+	Content-Length: 0
+REQUEST BODY:
+{}
+
+RESPONSE: 400 Bad Request
+RESPONSE HEADERS:
+	Server: nginx
+	Date: Mon, 01 Feb 2021 09:15:59 GMT
+	Content-Type: application/json; charset=utf-8
+	Content-Length: 260
+	Connection: close
+	Content-Security-Policy: default-src 'self'
+	X-Content-Type-Options: nosniff
+	X-Frame-Options: DENY
+	X-Permitted-Cross-Domain-Policies: master-only
+	X-XSS-Protection: 1; mode=block
+RESPONSE DATA:
+{
+    "_etag": 0,
+    "_content_length": "0",
+    "_schema": 0,
+    "_created_on_utc": 0,
+    "_updated_on_utc": 0,
+    "_status_code": "400",
+    "_request_id": "1612170959166015599999031461823376926164",
+    "_error": [
+        {
+            "code": "INTERFACE_CONFIG_CONFIGURATION_EXISTS",
+            "message": "Interface is configured."
+        }
+    ]
+}
