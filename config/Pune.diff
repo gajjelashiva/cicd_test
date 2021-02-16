@@ -1,72 +1,22 @@
 --- /tmp/ci/100/cicd_test/config/Pune.yml
 +++ /tmp/ci/100/Pune_controller.yml
-@@ -1,19 +1,38 @@
+@@ -1,8 +1,9 @@
  ---
  type: cloudgenix template
  version: 1.0
 -# Created at 2021-01-29T05:06:28.588955Z
-+# Created at 2021-02-12T11:52:43.377774Z
++# Created at 2021-02-16T16:45:46.301742Z
  # by system_100@cyberdyne.com
 +# FROM_CLOUDBLADE
  sites v4.5:
    Pune:
      address:
--      city: Bengaluru
-+      city: Pune
-       country: India
--      post_code:
--      state: Karnatakaq
--      street:
--      street2:
+@@ -12,7 +13,7 @@
+       state: Karnatakaq
+       street:
+       street2:
 -    admin_state: disabled
--    description: Chennai
-+      post_code: '512345'
-+      state: Maharashtra
-+      street: test12345
-+      street2: thisistryupdatedbyCLoudblad
 +    admin_state: active
-+    description: BangalorelocationupdatedbyCloudBlade
-+    dhcpservers v2.1:
-+    - broadcast_address: 192.168.150.255
-+      custom_options:
-+      default_lease_time: 43200
-+      description:
-+      disabled: false
-+      dns_servers:
-+      - 8.8.8.8
-+      domain_name:
-+      gateway: 192.168.150.1
-+      ip_ranges:
-+      - end_ip: 192.168.150.220
-+        start_ip: 192.168.150.100
-+      max_lease_time: 86400
-+      network_context_id:
-+      static_mappings:
-+      subnet: 192.168.150.0/24
-+      tags:
+     description: Chennai
      element_cluster_role: SPOKE
      elements v2.3: {}
-     extended_tags:
-@@ -28,3 +47,22 @@
-     security_policyset_id:
-     service_binding: Preset Domain
-     tags:
-+    waninterfaces v2.6:
-+      Circuit to AIRTEL-boradband-network1:
-+        bfd_mode: aggressive
-+        bw_config_mode: manual
-+        bwc_enabled: true
-+        cost: 128
-+        description:
-+        label_id: Ethernet Internet
-+        link_bw_down: 30.0
-+        link_bw_up: 10.0
-+        lqm_config:
-+        lqm_enabled: true
-+        network_id: AIRTEL-boradband-network1
-+        network_type: publicwan
-+        tags:
-+        type: publicwan
-+        use_for_application_reachability_probes:
-+        use_for_controller_connections:
-+        vpnlink_configuration:
