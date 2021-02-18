@@ -1,0 +1,45 @@
+controller:
+  hostname        : &HOSTNAME1 "api.local.cloudgenix.com"
+  iapi_hostname   : "iapi.local.cloudgenix.com"
+  desc            : "Cloudgenix Local Controller"
+
+cloudgenix:
+  operators:
+    - name            : "support_ops"
+      email           : "support@cloudgenix.com"
+      password        : "support@cloudgenix.com"
+      role            : "support"
+
+  hosts:
+    # Cloudgenix Elements
+    # attached with controller 10.66.23.172
+    - name            : "ION-SPOKE-3k"
+      ip_addr         : "10.66.23.173"
+      username        : "elem-admin"
+      password        : "test"
+      type            : "element"
+
+    - name: "Test-Hub"
+      ip_addr: "10.65.14.94"
+      username: "elem-admin"
+      password: "test"
+      type: "element"
+
+    # Cloudgenix Elements
+    - name: "Spoke-2"
+      ip_addr: "10.66.23.83"
+      username: "elem-admin"
+      password: "test"
+      type: "element"
+
+tenants:
+  - name              : cyberdyne
+    id                : 100
+    auto_id           : cyberdyne
+
+    operators:
+      - name          : "master_admin"
+        email         : "netadmin@cyberdyne.com"
+        password      : "netadmin@cyberdyne.com"
+        role          : "tenant_root"
+        state         : "primary"
