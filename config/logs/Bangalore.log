@@ -873,3 +873,7 @@ RESPONSE DATA:
         }
     ]
 }
+INFO: 02/25/2021 08:30:38 AM MESSAGE: No Change for Site Bangalore.
+INFO: 02/25/2021 08:30:38 AM MESSAGE:  No Change for Waninterface Circuit to AIRTEL-boradband-network1.
+INFO: 02/25/2021 08:30:38 AM MESSAGE:  No Change for Dhcpserver for 192.168.150.0/24.
+ERROR: 02/25/2021 08:30:38 AM ERROR: Element ION-SPOKE-3k(a28d1542-f610-abd1-c741-97a1cd6d0045) is already assigned to site Chennai
