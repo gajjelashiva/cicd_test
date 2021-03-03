@@ -1,0 +1,22 @@
+--- /tmp/ci/100/cicd_test/Test_XSS_CODE/config/Bangalore123.yml
++++ /tmp/ci/100/Bangalore123_controller.yml
+@@ -1,8 +1,9 @@
+ ---
+ type: cloudgenix template
+ version: 1.0
+-# Created at 2021-03-03T05:57:06.176842Z
++# Created at 2021-03-03T05:59:10.209710Z
+ # by system_100@cyberdyne.com
++# FROM_CLOUDBLADE
+ sites v4.5:
+   Bangalore123:
+     address:
+@@ -13,7 +14,7 @@
+       street: test12345
+       street2: thisistryupdatedbyCLoudblad
+     admin_state: active
+-    description: '&lt;A HREF="http://0x42.0x0000066.0x7.0x93/"&gt;XSS&lt;/A&gt;'
++    description: BangalorelocationupdatedbyCloudBlade
+     dhcpservers v2.1:
+     - broadcast_address: 192.168.150.255
+       custom_options:
