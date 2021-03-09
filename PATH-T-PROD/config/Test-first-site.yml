@@ -1,0 +1,24 @@
+---
+type: cloudgenix template
+version: 1.0
+# Created at 2021-03-09T08:56:09.372194Z
+# by system_1081@shiva.com
+sites v4.5:
+  Test-first-site:
+    address:
+    admin_state: disabled
+    description:
+    element_cluster_role: SPOKE
+    elements v2.3: {}
+    extended_tags:
+    location:
+      description:
+      latitude: 0.0
+      longitude: 0.0
+    nat_policysetstack_id: Default-NATPolicySetStack
+    network_policysetstack_id: Default Path Simple Stack (Simple)
+    policy_set_id:
+    priority_policysetstack_id: Default QoS Simple Stack (Simple)
+    security_policyset_id:
+    service_binding: Preset Domain
+    tags:
