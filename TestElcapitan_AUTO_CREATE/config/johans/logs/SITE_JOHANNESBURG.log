@@ -57,3 +57,62 @@ RESPONSE DATA:
         }
     ]
 }
+ERROR: 03/11/2021 11:31:51 AM ERROR: Site creation failed: 
+REQUEST: POST /v4.5/api/tenants/1062/sites
+REQUEST HEADERS:
+	User-Agent: python-requests/2.24.0 (CGX SDK v5.4.3b1)
+	Accept-Encoding: gzip, deflate
+	Accept: application/json
+	Connection: keep-alive
+	X-Auth-Token: <SENSITIVE - NOT SHOWN BY DEFAULT>
+	Content-Type: application/json
+	Cookie: AUTH_TOKEN="<SENSITIVE - NOT SHOWN BY DEFAULT>"
+	Content-Length: 484
+REQUEST BODY:
+{
+    "address": null,
+    "admin_state": "disabled",
+    "description": null,
+    "element_cluster_role": "SPOKE",
+    "extended_tags": null,
+    "location": {
+        "description": null,
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    "nat_policysetstack_id": "16039337081480090",
+    "network_policysetstack_id": "NetworkPolicySetStack",
+    "policy_set_id": null,
+    "priority_policysetstack_id": "PriorityPolicySetStack",
+    "security_policyset_id": null,
+    "service_binding": "16039337100290103",
+    "tags": null,
+    "name": "SITE_JOHANNESBURG"
+}
+
+RESPONSE: 400 Bad Request
+RESPONSE HEADERS:
+	Server: nginx
+	Date: Thu, 11 Mar 2021 11:31:51 GMT
+	Content-Length: 362
+	Connection: keep-alive
+RESPONSE DATA:
+{
+    "_etag": 0,
+    "_content_length": "0",
+    "_schema": 0,
+    "_created_on_utc": 0,
+    "_updated_on_utc": 0,
+    "_status_code": "400",
+    "_request_id": "1615462311225014700004952087810112634587",
+    "_error": [
+        {
+            "code": "INVALID_PRIORITY_POLICYSETSTACK_ID",
+            "message": "Invalid priority policy set stack id"
+        },
+        {
+            "code": "INVALID_NETWORK_POLICYSETSTACK_ID",
+            "message": "Invalid network policy set stack id"
+        }
+    ]
+}
