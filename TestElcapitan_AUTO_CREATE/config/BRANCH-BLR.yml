@@ -26,7 +26,7 @@ sites v4.5:
         cluster_member_id:
         connected: true
         deployment_op:
-        description:
+        description: Test update of element
         element_security_zones v2.0: []
         interfaces v4.9:
           '1':
