@@ -8,12 +8,12 @@ sites v4.5:
     address:
       city: Delhi
       country: India
-      post_code:
-      state:
+      post_code: 6789612
+      state: Delhi
       street: parliament house
       street2:
     admin_state: disabled
-    description:
+    description: Site for delhi
     element_cluster_role: HUB
     elements v2.3:
       HUB-7K:
