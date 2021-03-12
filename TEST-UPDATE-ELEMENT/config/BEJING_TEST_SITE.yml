@@ -5,7 +5,7 @@ version: 1.0
 # by system_1062@soumya_elcap.com
 sites v4.5:
   BEJING_TEST_SITE:
-    address: Address updated by yaml file
+    address:
     admin_state: disabled
     description: this is to test the yaml file
     element_cluster_role: SPOKE
