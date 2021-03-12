@@ -1,25 +1,22 @@
 --- /tmp/ci/1062/cicd_test/TEST-UPDATE-ELEMENT/config/BEJING_TEST_SITE.yml
 +++ /tmp/ci/1062/BEJING_TEST_SITE_controller.yml
-@@ -1,18 +1,19 @@
+@@ -1,17 +1,12 @@
  ---
  type: cloudgenix template
  version: 1.0
 -# Created at 2021-03-12T07:20:15.499846Z
-+# Created at 2021-03-12T08:45:00.650082Z
++# Created at 2021-03-12T08:48:19.916204Z
  # by system_1062@soumya_elcap.com
 +# FROM_CLOUDBLADE
  sites v4.5:
    BEJING_TEST_SITE:
      address:
+-      city: Bengaluru
+-      country: India
+-      post_code:
+-      state: Karnataka
+-      street: Vidhansaudha
+-      street2:
      admin_state: disabled
--    description: this is to test the yaml file
-+    description:
+     description: this is to test the yaml file
      element_cluster_role: SPOKE
-     elements v2.3: {}
-     extended_tags:
-     location:
--      description: location yaml
-+      description:
-       latitude: 0.0
-       longitude: 0.0
-     nat_policysetstack_id: Default-NATPolicySetStack
