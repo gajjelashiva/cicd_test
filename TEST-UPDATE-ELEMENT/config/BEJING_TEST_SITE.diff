@@ -5,12 +5,21 @@
  type: cloudgenix template
  version: 1.0
 -# Created at 2021-03-12T07:20:15.499846Z
-+# Created at 2021-03-12T08:51:11.782774Z
++# Created at 2021-03-12T08:51:22.223143Z
  # by system_1062@soumya_elcap.com
 +# FROM_CLOUDBLADE
  sites v4.5:
    BEJING_TEST_SITE:
      address:
+@@ -12,7 +13,7 @@
+       state: Karnataka
+       street: Vidhansaudha
+       street2:
+-    admin_state: disabled
++    admin_state: monitor
+     description: this is to test the yaml file
+     element_cluster_role: SPOKE
+     elements v2.3: {}
 @@ -28,3 +29,4 @@
      security_policyset_id:
      service_binding: Preset Domain
