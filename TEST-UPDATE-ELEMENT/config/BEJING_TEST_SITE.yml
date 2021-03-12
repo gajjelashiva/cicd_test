@@ -5,14 +5,14 @@ version: 1.0
 # by system_1062@soumya_elcap.com
 sites v4.5:
   BEJING_TEST_SITE:
-    address:
+    address: Address updated by yaml file
     admin_state: disabled
-    description:
+    description: this is to test the yaml file
     element_cluster_role: SPOKE
     elements v2.3: {}
     extended_tags:
     location:
-      description:
+      description: location yaml
       latitude: 0.0
       longitude: 0.0
     nat_policysetstack_id: Default-NATPolicySetStack
