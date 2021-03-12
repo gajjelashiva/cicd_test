@@ -13,7 +13,7 @@ sites v4.5:
       street: Vidhansaudha
       street2:
     admin_state: disabled
-    description: this is to test the yaml file
+    description: this is to test the yaml file ci ignore
     element_cluster_role: SPOKE
     elements v2.3: {}
     extended_tags:
