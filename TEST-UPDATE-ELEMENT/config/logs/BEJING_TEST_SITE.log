@@ -1,0 +1,67 @@
+ERROR: 03/12/2021 08:40:38 AM ERROR: Site update failed: 
+REQUEST: PUT /v4.5/api/tenants/1062/sites/16154852368370007
+REQUEST HEADERS:
+	User-Agent: python-requests/2.24.0 (CGX SDK v5.4.3b1)
+	Accept-Encoding: gzip, deflate
+	Accept: application/json
+	Connection: keep-alive
+	X-Auth-Token: <SENSITIVE - NOT SHOWN BY DEFAULT>
+	Content-Type: application/json
+	Cookie: AUTH_TOKEN="<SENSITIVE - NOT SHOWN BY DEFAULT>"
+	Content-Length: 838
+REQUEST BODY:
+{
+    "id": "16154852368370007",
+    "_etag": 2,
+    "_content_length": "0",
+    "_schema": 2,
+    "_created_on_utc": 16154852368370007,
+    "_updated_on_utc": 16154852368430008,
+    "_status_code": "200",
+    "_request_id": "1615538437903022299993963432018422388218",
+    "_debug": null,
+    "_info": null,
+    "_warning": null,
+    "_error": null,
+    "name": "BEJING_TEST_SITE",
+    "description": "this is to test the yaml file",
+    "tags": null,
+    "admin_state": "disabled",
+    "address": "Address updated by yaml file",
+    "location": {
+        "description": "location yaml",
+        "latitude": 0.0,
+        "longitude": 0.0
+    },
+    "policy_set_id": null,
+    "element_cluster_role": "SPOKE",
+    "security_policyset_id": null,
+    "service_binding": "16039337100290103",
+    "network_policysetstack_id": "16039337004220149",
+    "priority_policysetstack_id": "16039337041490014",
+    "nat_policysetstack_id": "16039337081480090",
+    "extended_tags": null
+}
+
+RESPONSE: 400 Bad Request
+RESPONSE HEADERS:
+	Server: nginx
+	Date: Fri, 12 Mar 2021 08:40:37 GMT
+	Content-Length: 293
+	Connection: keep-alive
+RESPONSE DATA:
+{
+    "_etag": 0,
+    "_content_length": "0",
+    "_schema": 0,
+    "_created_on_utc": 0,
+    "_updated_on_utc": 0,
+    "_status_code": "400",
+    "_request_id": "1615538437945021900003861944482714507290",
+    "_error": [
+        {
+            "code": "INVALID_JSON_EXTRA_ATTRIBUTE",
+            "message": "\"Input JSON has attribute not recognized by the current schema.\""
+        }
+    ]
+}
