@@ -2,3 +2,5 @@ INFO: 03/12/2021 08:48:04 AM MESSAGE: No Change for Site Azure-Test-SITE.
 INFO: 03/12/2021 08:50:16 AM MESSAGE: No Change for Site Azure-Test-SITE.
 WARNING: 03/12/2021 09:09:15 AM WARNING: Site WAN Interface is missing a name. Please correct this in UI. Setting to "Circuit to Airtel" in YAML file, but this may cause issues if configuration is re-applied to site.
 INFO: 03/12/2021 09:09:17 AM MESSAGE: No Change for Site Azure-Test-SITE.
+WARNING: 03/12/2021 09:09:26 AM WARNING: Site WAN Interface is missing a name. Please correct this in UI. Setting to "Circuit to Airtel" in YAML file, but this may cause issues if configuration is re-applied to site.
+INFO: 03/12/2021 09:09:28 AM MESSAGE: No Change for Site Azure-Test-SITE.
