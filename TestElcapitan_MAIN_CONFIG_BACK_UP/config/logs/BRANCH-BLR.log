@@ -1,3 +1,6 @@
 INFO: 03/12/2021 06:34:06 AM MESSAGE: Created Site BRANCH-BLR.
 INFO: 03/12/2021 06:34:15 AM MESSAGE: No Change for Site BRANCH-BLR.
 INFO: 03/12/2021 06:34:24 AM MESSAGE: No Change for Site BRANCH-BLR.
+INFO: 03/12/2021 07:19:07 AM MESSAGE: No Change for Site BRANCH-BLR.
+INFO: 03/12/2021 07:19:07 AM MESSAGE:   Element SPOKE-3K not yet in requested state(s): ready, bound (is bound_in_progress). Waited so far 0 seconds out of 5.
+ERROR: 03/12/2021 07:19:13 AM ERROR: Element SPOKE-3K state transition took longer than 5 seconds. Exiting.
