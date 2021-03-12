@@ -5,7 +5,7 @@
  type: cloudgenix template
  version: 1.0
 -# Created at 2021-03-12T07:20:15.499846Z
-+# Created at 2021-03-12T08:51:22.223143Z
++# Created at 2021-03-12T08:53:07.461600Z
  # by system_1062@soumya_elcap.com
 +# FROM_CLOUDBLADE
  sites v4.5:
@@ -16,7 +16,7 @@
        street: Vidhansaudha
        street2:
 -    admin_state: disabled
-+    admin_state: monitor
++    admin_state: active
      description: this is to test the yaml file
      element_cluster_role: SPOKE
      elements v2.3: {}
