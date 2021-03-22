@@ -10,3 +10,5 @@ INFO: 03/22/2021 06:28:20 AM MESSAGE: No Change for Site Azure-Test-SITE.
 ERROR: 03/22/2021 06:28:20 AM ERROR: Element Anulta-Azure-Spoke-3k_new(d3041542-065e-9cfb-0f45-881102b907a7) is already assigned to site Azure-Test-SITE_new
 INFO: 03/22/2021 06:28:29 AM MESSAGE: No Change for Site Azure-Test-SITE.
 ERROR: 03/22/2021 06:28:29 AM ERROR: Element Anulta-Azure-Spoke-3k_new(d3041542-065e-9cfb-0f45-881102b907a7) is already assigned to site Azure-Test-SITE_new
+INFO: 03/22/2021 06:31:43 AM MESSAGE: No Change for Site Azure-Test-SITE.
+ERROR: 03/22/2021 06:31:43 AM ERROR: Element Anulta-Azure-Spoke-3k_new(d3041542-065e-9cfb-0f45-881102b907a7) is already assigned to site Azure-Test-SITE_new
