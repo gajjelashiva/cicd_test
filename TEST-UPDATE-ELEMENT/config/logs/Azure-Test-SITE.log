@@ -6,3 +6,5 @@ WARNING: 03/12/2021 09:09:26 AM WARNING: Site WAN Interface is missing a name. P
 INFO: 03/12/2021 09:09:28 AM MESSAGE: No Change for Site Azure-Test-SITE.
 INFO: 03/22/2021 06:28:05 AM MESSAGE: Created Site Azure-Test-SITE.
 ERROR: 03/22/2021 06:28:05 AM ERROR: Element Anulta-Azure-Spoke-3k_new(d3041542-065e-9cfb-0f45-881102b907a7) is already assigned to site Azure-Test-SITE_new
+INFO: 03/22/2021 06:28:20 AM MESSAGE: No Change for Site Azure-Test-SITE.
+ERROR: 03/22/2021 06:28:20 AM ERROR: Element Anulta-Azure-Spoke-3k_new(d3041542-065e-9cfb-0f45-881102b907a7) is already assigned to site Azure-Test-SITE_new
