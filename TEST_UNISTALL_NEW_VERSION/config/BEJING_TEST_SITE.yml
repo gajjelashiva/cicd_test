@@ -1,0 +1,30 @@
+---
+type: cloudgenix template
+version: 1.0
+# Created at 2021-03-22T06:49:57.077815Z
+# by system_1062@soumya_elcap.com
+sites v4.5:
+  BEJING_TEST_SITE:
+    address:
+      city: Bengaluru
+      country: India
+      post_code:
+      state: Karnataka
+      street: Vidhansaudha
+      street2:
+    admin_state: disabled
+    description: this is to test the yaml file ci ignore
+    element_cluster_role: SPOKE
+    elements v2.3: {}
+    extended_tags:
+    location:
+      description: location yaml
+      latitude: 0.0
+      longitude: 0.0
+    nat_policysetstack_id: Default-NATPolicySetStack
+    network_policysetstack_id: Default Path Simple Stack (Simple)
+    policy_set_id:
+    priority_policysetstack_id: Default QoS Simple Stack (Simple)
+    security_policyset_id:
+    service_binding: Preset Domain
+    tags:
