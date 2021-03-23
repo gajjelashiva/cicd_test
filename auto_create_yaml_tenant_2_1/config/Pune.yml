@@ -1,0 +1,30 @@
+---
+type: cloudgenix template
+version: 1.0
+# Created at 2021-03-23T16:53:10.556225Z
+# by system_200@cyberdyn1e.com
+sites v4.5:
+  Pune:
+    address:
+      city: Bengaluru
+      country: India
+      post_code:
+      state: Karnatakaq
+      street:
+      street2:
+    admin_state: disabled
+    description: Chennai
+    element_cluster_role: SPOKE
+    elements v2.3: {}
+    extended_tags:
+    location:
+      description:
+      latitude: 12.8635892868042
+      longitude: 77.65642547607422
+    nat_policysetstack_id: Default-NATPolicySetStack
+    network_policysetstack_id: NetworkPolicySetStack
+    policy_set_id:
+    priority_policysetstack_id: PriorityPolicySetStack
+    security_policyset_id:
+    service_binding: Preset Domain
+    tags:
