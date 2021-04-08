@@ -1,0 +1,67 @@
+---
+type: cloudgenix template
+version: 1.0
+# Created at 2021-04-08T15:03:59.402142Z
+# by system_1100@testaccount.com
+sites v4.5:
+  BLR:
+    address:
+      city: Bengaluru
+      country: India
+      post_code:
+      state: Karnataka
+      street:
+      street2:
+    admin_state: disabled
+    description: BLR Site
+    element_cluster_role: SPOKE
+    elements v2.3: {}
+    extended_tags:
+    location:
+      description:
+      latitude: 12.96991
+      longitude: 77.59796
+    nat_policysetstack_id:
+    network_policysetstack_id:
+    policy_set_id: AppPolSet01
+    priority_policysetstack_id:
+    security_policyset_id:
+    service_binding: Preset Domain
+    tags:
+    waninterfaces v2.6:
+      Circuit to ACT:
+        bfd_mode: aggressive
+        bw_config_mode: manual
+        bwc_enabled: true
+        cost: 128
+        description:
+        label_id: MPLS
+        link_bw_down: 30.0
+        link_bw_up: 10.0
+        lqm_config:
+        lqm_enabled: true
+        network_id: ACT
+        network_type: privatewan
+        tags:
+        type: privatewan
+        use_for_application_reachability_probes:
+        use_for_controller_connections:
+        vpnlink_configuration:
+      Circuit to BSNL:
+        bfd_mode: aggressive
+        bw_config_mode: manual
+        bwc_enabled: true
+        cost: 128
+        description:
+        label_id: Ethernet Internet
+        link_bw_down: 30.0
+        link_bw_up: 10.0
+        lqm_config:
+        lqm_enabled: true
+        network_id: BSNL
+        network_type: publicwan
+        tags:
+        type: publicwan
+        use_for_application_reachability_probes:
+        use_for_controller_connections:
+        vpnlink_configuration:
