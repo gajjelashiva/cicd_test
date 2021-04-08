@@ -1,0 +1,35 @@
+---
+type: cloudgenix template
+version: 1.0
+# Created at 2021-04-08T07:56:38.136752Z
+# by system_1081@shiva.com
+sites v4.5:
+  DC-DELHI:
+    address:
+      city: Delhi
+      country: India
+      post_code:
+      state:
+      street: parliament house
+      street2:
+    admin_state: disabled
+    description:
+    element_cluster_role: HUB
+    elements v2.3: {}
+    extended_tags:
+    hubclusters v2.0:
+      default-1081-16154842247780001:
+        admin_up: true
+        load_alarm_threshold: 90
+        subscription_factor: 0.5
+    location:
+      description:
+      latitude: 28.66667
+      longitude: 77.21667
+    nat_policysetstack_id:
+    network_policysetstack_id:
+    policy_set_id:
+    priority_policysetstack_id:
+    security_policyset_id:
+    service_binding:
+    tags:
