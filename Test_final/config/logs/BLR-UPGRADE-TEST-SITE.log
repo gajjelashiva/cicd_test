@@ -8,3 +8,7 @@ INFO: 04/12/2021 04:20:41 PM MESSAGE: No Change for Site BLR-UPGRADE-TEST-SITE.
 INFO: 04/12/2021 04:20:41 PM MESSAGE:  No Change for Waninterface Circuit to Airtel.
 INFO: 04/12/2021 04:20:41 PM MESSAGE:   Element ION-3K-UpgradeTest not yet in requested state(s): ready, bound (is bound_in_progress). Waited so far 0 seconds out of 5.
 ERROR: 04/12/2021 04:20:47 PM ERROR: Element ION-3K-UpgradeTest state transition took longer than 5 seconds. Exiting.
+INFO: 04/12/2021 04:20:55 PM MESSAGE: No Change for Site BLR-UPGRADE-TEST-SITE.
+INFO: 04/12/2021 04:20:55 PM MESSAGE:  No Change for Waninterface Circuit to Airtel.
+INFO: 04/12/2021 04:20:55 PM MESSAGE:   Element ION-3K-UpgradeTest not yet in requested state(s): ready, bound (is bound_in_progress). Waited so far 0 seconds out of 5.
+ERROR: 04/12/2021 04:21:01 PM ERROR: Element ION-3K-UpgradeTest state transition took longer than 5 seconds. Exiting.
