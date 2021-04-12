@@ -34,7 +34,7 @@ sites v4.5:
             attached_lan_networks:
             bound_interfaces:
             bypass_pair:
-            description: ''
+            description: 'Description updated by CI CB'
             devicemgmt_policysetstack_id:
             dhcp_relay:
             directed_broadcast: false
