@@ -16,3 +16,21 @@ INFO: 04/12/2021 04:24:51 PM MESSAGE: Disabling site..
 INFO: 04/12/2021 04:24:52 PM MESSAGE: Updated Site BLR-UPGRADE-TEST-SITE to state disabled.
 INFO: 04/12/2021 04:24:52 PM MESSAGE: Deleting Site BLR-UPGRADE-TEST-SITE..
 INFO: 04/12/2021 04:24:52 PM MESSAGE: DONE
+INFO: 04/12/2021 04:38:54 PM MESSAGE: Beginning to DESTROY site BLR-UPGRADE-TEST-SITE(16182448863660067)..
+INFO: 04/12/2021 04:38:54 PM MESSAGE: Un-assigning and de-claiming Element ION-3K-UpgradeTest(68171542-5148-7b26-b606-07d77cf234ac) bound to 16182448863660067.
+INFO: 04/12/2021 04:38:54 PM MESSAGE:  Removing LAN Networks/WAN Interfaces from 8.
+INFO: 04/12/2021 04:38:54 PM MESSAGE:  Removing LAN Networks/WAN Interfaces from 7.
+INFO: 04/12/2021 04:38:54 PM MESSAGE:  Removing LAN Networks/WAN Interfaces from 3.
+INFO: 04/12/2021 04:38:54 PM MESSAGE:  Removing LAN Networks/WAN Interfaces from controller 1.
+INFO: 04/12/2021 04:38:54 PM MESSAGE:  Removing LAN Networks/WAN Interfaces from 1.
+INFO: 04/12/2021 04:38:55 PM MESSAGE:  Removing LAN Networks/WAN Interfaces from 4.
+INFO: 04/12/2021 04:38:55 PM MESSAGE:  Removing LAN Networks/WAN Interfaces from 2.
+INFO: 04/12/2021 04:38:55 PM MESSAGE:  Removing LAN Networks/WAN Interfaces from 5.
+INFO: 04/12/2021 04:38:55 PM MESSAGE:  Removing LAN Networks/WAN Interfaces from 6.
+INFO: 04/12/2021 04:38:55 PM MESSAGE:  Removing any leftover Element Security Zones and Spoke HA from ION-3K-UpgradeTest:
+INFO: 04/12/2021 04:38:55 PM MESSAGE:    No Change for Spoke HA in Element ION-3K-UpgradeTest.
+INFO: 04/12/2021 04:38:56 PM MESSAGE:  Deleting Unconfigured Waninterface Circuit to Airtel.
+INFO: 04/12/2021 04:38:56 PM MESSAGE: Disabling site..
+INFO: 04/12/2021 04:38:57 PM MESSAGE: Updated Site BLR-UPGRADE-TEST-SITE to state disabled.
+INFO: 04/12/2021 04:38:57 PM MESSAGE: Deleting Site BLR-UPGRADE-TEST-SITE..
+INFO: 04/12/2021 04:38:57 PM MESSAGE: DONE
