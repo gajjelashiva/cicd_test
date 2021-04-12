@@ -10,3 +10,80 @@ INFO: 04/12/2021 03:26:02 PM MESSAGE:  No Change for Waninterface Circuit to Ver
 INFO: 04/12/2021 03:26:02 PM MESSAGE:  No Change for Waninterface Circuit to Vodafone.
 INFO: 04/12/2021 03:26:02 PM MESSAGE: Un-assigning Element ION_3K_IPFIX(42108316-62af-0a63-0ed5-9ef9888ec291) bound to 16182410103110198.
 INFO: 04/12/2021 03:26:02 PM MESSAGE:  Removing LAN Networks/WAN Interfaces from 3.
+INFO: 04/12/2021 03:27:07 PM MESSAGE: No Change for Site SITE_3K_IPFIX.
+INFO: 04/12/2021 03:27:08 PM MESSAGE:  No Change for Waninterface Circuit to AT&T.
+INFO: 04/12/2021 03:27:08 PM MESSAGE:  No Change for Waninterface Circuit to Airtel.
+INFO: 04/12/2021 03:27:08 PM MESSAGE:  No Change for Waninterface Circuit to At&T.
+INFO: 04/12/2021 03:27:08 PM MESSAGE:  No Change for Waninterface Circuit to BSNL.
+INFO: 04/12/2021 03:27:08 PM MESSAGE:  No Change for Waninterface Circuit to Jio.
+INFO: 04/12/2021 03:27:08 PM MESSAGE:  No Change for Waninterface Circuit to T-Mobile.
+INFO: 04/12/2021 03:27:08 PM MESSAGE:  No Change for Waninterface Circuit to TestCKT-01.
+INFO: 04/12/2021 03:27:08 PM MESSAGE:  No Change for Waninterface Circuit to Verizon.
+INFO: 04/12/2021 03:27:08 PM MESSAGE:  No Change for Waninterface Circuit to Vodafone.
+INFO: 04/12/2021 03:27:08 PM MESSAGE: Un-assigning Element ION_3K_IPFIX(42108316-62af-0a63-0ed5-9ef9888ec291) bound to 16182410103110198.
+INFO: 04/12/2021 03:27:09 PM MESSAGE:  Removing LAN Networks/WAN Interfaces from 3.
+INFO: 04/12/2021 03:27:09 PM MESSAGE:  Removing LAN Networks/WAN Interfaces from 5.
+INFO: 04/12/2021 03:27:09 PM MESSAGE:  Removing LAN Networks/WAN Interfaces from 6.
+INFO: 04/12/2021 03:27:09 PM MESSAGE:  Removing LAN Networks/WAN Interfaces from 7.
+INFO: 04/12/2021 03:27:09 PM MESSAGE:  Removing LAN Networks/WAN Interfaces from 1.
+INFO: 04/12/2021 03:27:09 PM MESSAGE:  Removing LAN Networks/WAN Interfaces from controller 1.
+INFO: 04/12/2021 03:27:09 PM MESSAGE:  Removing LAN Networks/WAN Interfaces from 2.
+INFO: 04/12/2021 03:27:09 PM MESSAGE:  Removing LAN Networks/WAN Interfaces from 4.
+INFO: 04/12/2021 03:27:09 PM MESSAGE:  Removing LAN Networks/WAN Interfaces from 8.
+INFO: 04/12/2021 03:27:10 PM MESSAGE:  Removing LAN Networks/WAN Interfaces from 9.
+INFO: 04/12/2021 03:27:10 PM MESSAGE:  Removing any leftover Element Security Zones and Spoke HA from ION_3K_IPFIX:
+INFO: 04/12/2021 03:27:10 PM MESSAGE:    Updating Spoke HA for Element ION_3K_IPFIX.
+ERROR: 04/12/2021 03:27:10 PM ERROR: Element ION_3K_IPFIX Spoke HA Update failed: 
+REQUEST: PUT /v2.3/api/tenants/2750/elements/16182410169380204
+REQUEST HEADERS:
+	User-Agent: python-requests/2.25.1 (CGX SDK v5.4.3b1)
+	Accept-Encoding: gzip, deflate
+	Accept: application/json
+	Connection: keep-alive
+	X-Auth-Token: <SENSITIVE - NOT SHOWN BY DEFAULT>
+	Content-Type: application/json
+	Cookie: AUTH_TOKEN="<SENSITIVE - NOT SHOWN BY DEFAULT>"
+	Content-Length: 448
+REQUEST BODY:
+{
+    "id": "16182410169380204",
+    "_etag": 16,
+    "_schema": 0,
+    "site_id": "16182410103110198",
+    "name": "ION_3K_IPFIX",
+    "description": null,
+    "cluster_insertion_mode": null,
+    "cluster_member_id": null,
+    "l3_direct_private_wan_forwarding": true,
+    "l3_lan_forwarding": true,
+    "network_policysetstack_id": null,
+    "priority_policysetstack_id": null,
+    "spoke_ha_config": null,
+    "tags": null,
+    "nat_policysetstack_id": null,
+    "vpn_to_vpn_forwarding": false,
+    "sw_obj": null
+}
+
+RESPONSE: 400 Bad Request
+RESPONSE HEADERS:
+	Server: nginx
+	Date: Mon, 12 Apr 2021 15:27:10 GMT
+	Content-Length: 287
+	Connection: keep-alive
+RESPONSE DATA:
+{
+    "_etag": 0,
+    "_content_length": "0",
+    "_schema": 0,
+    "_created_on_utc": 0,
+    "_updated_on_utc": 0,
+    "_status_code": "400",
+    "_request_id": "1618241230322005200003794604726761234372",
+    "_error": [
+        {
+            "code": "INVALID_JSON_COMMON_ATTR_MISMATCH",
+            "message": "\"Schema or _etag attribute in input JSON is invalid.\""
+        }
+    ]
+}
