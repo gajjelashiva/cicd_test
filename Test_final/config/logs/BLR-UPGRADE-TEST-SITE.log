@@ -73,3 +73,7 @@ INFO: 04/12/2021 04:41:33 PM MESSAGE: No Change for Site BLR-UPGRADE-TEST-SITE.
 INFO: 04/12/2021 04:41:33 PM MESSAGE:  No Change for Waninterface Circuit to Airtel.
 INFO: 04/12/2021 04:41:33 PM MESSAGE:   Element Serial: 68171542-5148-7b26-b606-07d77cf234ac not yet in requested state(s): ready, bound (is init). Waited so far 0 seconds out of 5.
 ERROR: 04/12/2021 04:41:39 PM ERROR: Element Serial: 68171542-5148-7b26-b606-07d77cf234ac state transition took longer than 5 seconds. Exiting.
+INFO: 04/12/2021 04:41:47 PM MESSAGE: No Change for Site BLR-UPGRADE-TEST-SITE.
+INFO: 04/12/2021 04:41:47 PM MESSAGE:  No Change for Waninterface Circuit to Airtel.
+INFO: 04/12/2021 04:41:48 PM MESSAGE:   Element Serial: 68171542-5148-7b26-b606-07d77cf234ac not yet in requested state(s): ready, bound (is init). Waited so far 0 seconds out of 5.
+ERROR: 04/12/2021 04:41:54 PM ERROR: Element Serial: 68171542-5148-7b26-b606-07d77cf234ac state transition took longer than 5 seconds. Exiting.
