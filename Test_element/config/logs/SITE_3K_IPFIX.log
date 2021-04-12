@@ -1,0 +1,12 @@
+INFO: 04/12/2021 03:26:01 PM MESSAGE: No Change for Site SITE_3K_IPFIX.
+INFO: 04/12/2021 03:26:01 PM MESSAGE:  No Change for Waninterface Circuit to AT&T.
+INFO: 04/12/2021 03:26:01 PM MESSAGE:  No Change for Waninterface Circuit to Airtel.
+INFO: 04/12/2021 03:26:01 PM MESSAGE:  No Change for Waninterface Circuit to At&T.
+INFO: 04/12/2021 03:26:01 PM MESSAGE:  No Change for Waninterface Circuit to BSNL.
+INFO: 04/12/2021 03:26:02 PM MESSAGE:  No Change for Waninterface Circuit to Jio.
+INFO: 04/12/2021 03:26:02 PM MESSAGE:  No Change for Waninterface Circuit to T-Mobile.
+INFO: 04/12/2021 03:26:02 PM MESSAGE:  No Change for Waninterface Circuit to TestCKT-01.
+INFO: 04/12/2021 03:26:02 PM MESSAGE:  No Change for Waninterface Circuit to Verizon.
+INFO: 04/12/2021 03:26:02 PM MESSAGE:  No Change for Waninterface Circuit to Vodafone.
+INFO: 04/12/2021 03:26:02 PM MESSAGE: Un-assigning Element ION_3K_IPFIX(42108316-62af-0a63-0ed5-9ef9888ec291) bound to 16182410103110198.
+INFO: 04/12/2021 03:26:02 PM MESSAGE:  Removing LAN Networks/WAN Interfaces from 3.
