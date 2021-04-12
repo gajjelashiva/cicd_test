@@ -5,18 +5,18 @@
  type: cloudgenix template
  version: 1.0
 -# Created at 2021-04-12T13:49:32.206900Z
-+# Created at 2021-04-12T13:53:48.211714Z
++# Created at 2021-04-12T14:25:12.031074Z
  # by system_1081@shiva.com
 +# FROM_CLOUDBLADE
  sites v4.5:
    BRANCH-BLR:
      address:
 -      city: Kolkata
-+      city: Bengaluru
++      city: Chennai
        country: India
        post_code:
 -      state: Bengal
-+      state: Karnataka
++      state: Tamilanadu
        street: Vidhansaudha
        street2:
      admin_state: disabled
