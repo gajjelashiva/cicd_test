@@ -146,3 +146,185 @@ RESPONSE DATA:
         }
     ]
 }
+ERROR: 04/12/2021 03:27:28 PM ERROR: Element interfaces get failed: 
+REQUEST: GET /v4.9/api/tenants/2750/sites/16182410103110198/elements/16182410169380204/interfaces
+REQUEST HEADERS:
+	User-Agent: python-requests/2.25.1 (CGX SDK v5.4.3b1)
+	Accept-Encoding: gzip, deflate
+	Accept: application/json
+	Connection: keep-alive
+	X-Auth-Token: <SENSITIVE - NOT SHOWN BY DEFAULT>
+	Cookie: AUTH_TOKEN="<SENSITIVE - NOT SHOWN BY DEFAULT>"
+REQUEST BODY:
+{}
+
+RESPONSE: 400 Bad Request
+RESPONSE HEADERS:
+	Server: nginx
+	Date: Mon, 12 Apr 2021 15:27:28 GMT
+	Content-Length: 234
+	Connection: keep-alive
+RESPONSE DATA:
+{
+    "_etag": 0,
+    "_content_length": "0",
+    "_schema": 0,
+    "_created_on_utc": 0,
+    "_updated_on_utc": 0,
+    "_status_code": "400",
+    "_request_id": "1618241248069000000008681273849331414996",
+    "_error": [
+        {
+            "code": "ELEMENT_NOT_FOUND",
+            "message": "Element not found."
+        }
+    ]
+}
+ERROR: 04/12/2021 03:27:31 PM ERROR: Element interfaces get failed: 
+REQUEST: GET /v4.9/api/tenants/2750/sites/16182410103110198/elements/16182410169380204/interfaces
+REQUEST HEADERS:
+	User-Agent: python-requests/2.25.1 (CGX SDK v5.4.3b1)
+	Accept-Encoding: gzip, deflate
+	Accept: application/json
+	Connection: keep-alive
+	X-Auth-Token: <SENSITIVE - NOT SHOWN BY DEFAULT>
+	Cookie: AUTH_TOKEN="<SENSITIVE - NOT SHOWN BY DEFAULT>"
+REQUEST BODY:
+{}
+
+RESPONSE: 400 Bad Request
+RESPONSE HEADERS:
+	Server: nginx
+	Date: Mon, 12 Apr 2021 15:27:31 GMT
+	Content-Length: 234
+	Connection: keep-alive
+RESPONSE DATA:
+{
+    "_etag": 0,
+    "_content_length": "0",
+    "_schema": 0,
+    "_created_on_utc": 0,
+    "_updated_on_utc": 0,
+    "_status_code": "400",
+    "_request_id": "1618241251514009599997015163636068210132",
+    "_error": [
+        {
+            "code": "ELEMENT_NOT_FOUND",
+            "message": "Element not found."
+        }
+    ]
+}
+ERROR: 04/12/2021 03:27:34 PM ERROR: Element interfaces get failed: 
+REQUEST: GET /v4.9/api/tenants/2750/sites/16182410103110198/elements/16182410169380204/interfaces
+REQUEST HEADERS:
+	User-Agent: python-requests/2.25.1 (CGX SDK v5.4.3b1)
+	Accept-Encoding: gzip, deflate
+	Accept: application/json
+	Connection: keep-alive
+	X-Auth-Token: <SENSITIVE - NOT SHOWN BY DEFAULT>
+	Cookie: AUTH_TOKEN="<SENSITIVE - NOT SHOWN BY DEFAULT>"
+REQUEST BODY:
+{}
+
+RESPONSE: 400 Bad Request
+RESPONSE HEADERS:
+	Server: nginx
+	Date: Mon, 12 Apr 2021 15:27:34 GMT
+	Content-Length: 234
+	Connection: keep-alive
+RESPONSE DATA:
+{
+    "_etag": 0,
+    "_content_length": "0",
+    "_schema": 0,
+    "_created_on_utc": 0,
+    "_updated_on_utc": 0,
+    "_status_code": "400",
+    "_request_id": "1618241254738022099998964347435315718481",
+    "_error": [
+        {
+            "code": "ELEMENT_NOT_FOUND",
+            "message": "Element not found."
+        }
+    ]
+}
+ERROR: 04/12/2021 03:27:38 PM ERROR: Element interfaces get failed: 
+REQUEST: GET /v4.9/api/tenants/2750/sites/16182410103110198/elements/16182410169380204/interfaces
+REQUEST HEADERS:
+	User-Agent: python-requests/2.25.1 (CGX SDK v5.4.3b1)
+	Accept-Encoding: gzip, deflate
+	Accept: application/json
+	Connection: keep-alive
+	X-Auth-Token: <SENSITIVE - NOT SHOWN BY DEFAULT>
+	Cookie: AUTH_TOKEN="<SENSITIVE - NOT SHOWN BY DEFAULT>"
+REQUEST BODY:
+{}
+
+RESPONSE: 400 Bad Request
+RESPONSE HEADERS:
+	Server: nginx
+	Date: Mon, 12 Apr 2021 15:27:38 GMT
+	Content-Length: 234
+	Connection: keep-alive
+RESPONSE DATA:
+{
+    "_etag": 0,
+    "_content_length": "0",
+    "_schema": 0,
+    "_created_on_utc": 0,
+    "_updated_on_utc": 0,
+    "_status_code": "400",
+    "_request_id": "1618241258810002500002678608005871694728",
+    "_error": [
+        {
+            "code": "ELEMENT_NOT_FOUND",
+            "message": "Element not found."
+        }
+    ]
+}
+ERROR: 04/12/2021 03:27:44 PM ERROR: Element interfaces get failed: 
+REQUEST: GET /v4.9/api/tenants/2750/sites/16182410103110198/elements/16182410169380204/interfaces
+REQUEST HEADERS:
+	User-Agent: python-requests/2.25.1 (CGX SDK v5.4.3b1)
+	Accept-Encoding: gzip, deflate
+	Accept: application/json
+	Connection: keep-alive
+	X-Auth-Token: <SENSITIVE - NOT SHOWN BY DEFAULT>
+	Cookie: AUTH_TOKEN="<SENSITIVE - NOT SHOWN BY DEFAULT>"
+REQUEST BODY:
+{}
+
+RESPONSE: 400 Bad Request
+RESPONSE HEADERS:
+	Server: nginx
+	Date: Mon, 12 Apr 2021 15:27:44 GMT
+	Content-Length: 234
+	Connection: keep-alive
+RESPONSE DATA:
+{
+    "_etag": 0,
+    "_content_length": "0",
+    "_schema": 0,
+    "_created_on_utc": 0,
+    "_updated_on_utc": 0,
+    "_status_code": "400",
+    "_request_id": "1618241264685011100007561712715289419171",
+    "_error": [
+        {
+            "code": "ELEMENT_NOT_FOUND",
+            "message": "Element not found."
+        }
+    ]
+}
+INFO: 04/12/2021 03:29:54 PM MESSAGE: No Change for Site SITE_3K_IPFIX.
+INFO: 04/12/2021 03:29:54 PM MESSAGE:  No Change for Waninterface Circuit to AT&T.
+INFO: 04/12/2021 03:29:54 PM MESSAGE:  No Change for Waninterface Circuit to Airtel.
+INFO: 04/12/2021 03:29:54 PM MESSAGE:  No Change for Waninterface Circuit to At&T.
+INFO: 04/12/2021 03:29:54 PM MESSAGE:  No Change for Waninterface Circuit to BSNL.
+INFO: 04/12/2021 03:29:54 PM MESSAGE:  No Change for Waninterface Circuit to Jio.
+INFO: 04/12/2021 03:29:55 PM MESSAGE:  No Change for Waninterface Circuit to T-Mobile.
+INFO: 04/12/2021 03:29:55 PM MESSAGE:  No Change for Waninterface Circuit to TestCKT-01.
+INFO: 04/12/2021 03:29:55 PM MESSAGE:  No Change for Waninterface Circuit to Verizon.
+INFO: 04/12/2021 03:29:55 PM MESSAGE:  No Change for Waninterface Circuit to Vodafone.
+INFO: 04/12/2021 03:29:55 PM MESSAGE: Un-assigning Element ION_3K_IPFIX(42108316-62af-0a63-0ed5-9ef9888ec291) bound to 16182410103110198.
+INFO: 04/12/2021 03:29:55 PM MESSAGE:  Removing LAN Networks/WAN Interfaces from 3.
