@@ -183,3 +183,58 @@ RESPONSE DATA:
         }
     ]
 }
+INFO: 04/12/2021 03:46:40 PM MESSAGE: No Change for Site BLR-UPGRADE-TEST-SITE.
+INFO: 04/12/2021 03:46:40 PM MESSAGE:  No Change for Waninterface Circuit to Airtel.
+ERROR: 04/12/2021 03:46:40 PM ERROR: Waninterface creation failed: 
+REQUEST: POST /v2.6/api/tenants/2750/sites/16182423754920208/waninterfaces
+REQUEST HEADERS:
+	User-Agent: python-requests/2.25.1 (CGX SDK v5.4.3b1)
+	Accept-Encoding: gzip, deflate
+	Accept: application/json
+	Connection: keep-alive
+	X-Auth-Token: <SENSITIVE - NOT SHOWN BY DEFAULT>
+	Content-Type: application/json
+	Cookie: AUTH_TOKEN="<SENSITIVE - NOT SHOWN BY DEFAULT>"
+	Content-Length: 411
+REQUEST BODY:
+{
+    "bfd_mode": "aggressive",
+    "bw_config_mode": "manual",
+    "bwc_enabled": true,
+    "cost": 128,
+    "description": null,
+    "label_id": "15815752451950008",
+    "link_bw_down": 30.0,
+    "link_bw_up": 10.0,
+    "lqm_config": null,
+    "lqm_enabled": true,
+    "network_id": "16027294392160028",
+    "tags": null,
+    "type": "privatewan",
+    "use_for_application_reachability_probes": null,
+    "use_for_controller_connections": null,
+    "name": "Circuit to Jio"
+}
+
+RESPONSE: 400 Bad Request
+RESPONSE HEADERS:
+	Server: nginx
+	Date: Mon, 12 Apr 2021 15:46:40 GMT
+	Content-Length: 270
+	Connection: keep-alive
+RESPONSE DATA:
+{
+    "_etag": 0,
+    "_content_length": "0",
+    "_schema": 0,
+    "_created_on_utc": 0,
+    "_updated_on_utc": 0,
+    "_status_code": "400",
+    "_request_id": "1618242400315016199991244658519432610356",
+    "_error": [
+        {
+            "code": "INVALID_JSON_INPUT",
+            "message": "\"Input JSON does not have all required attributes.\""
+        }
+    ]
+}
