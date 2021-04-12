@@ -1,0 +1,193 @@
+---
+type: cloudgenix template
+version: 1.0
+# Created at 2021-04-12T15:32:54.549006Z
+# by system_2750@soumyars.com
+sites v4.5:
+  SITE_3K_IPFIX:
+    address:
+      city: Bengaluru
+      country: India
+      post_code:
+      state: Karnataka
+      street:
+      street2:
+    admin_state: active
+    description:
+    element_cluster_role: SPOKE
+    elements v2.3: {}
+    extended_tags:
+    location:
+      description:
+      latitude: 12.96991
+      longitude: 77.59796
+    nat_policysetstack_id: Default-NATPolicySetStack
+    network_policysetstack_id: NetworkPolicySetStack
+    policy_set_id:
+    priority_policysetstack_id: PriorityPolicySetStack
+    security_policyset_id:
+    service_binding: Preset Domain
+    tags:
+    waninterfaces v2.6:
+      Circuit to AT&T:
+        bfd_mode: aggressive
+        bw_config_mode: manual
+        bwc_enabled: true
+        cost: 128
+        description:
+        label_id: Internet Cable
+        link_bw_down: 30.0
+        link_bw_up: 10.0
+        lqm_config:
+        lqm_enabled: true
+        network_id: AT&T
+        network_type: publicwan
+        tags:
+        type: publicwan
+        use_for_application_reachability_probes:
+        use_for_controller_connections:
+        vpnlink_configuration:
+      Circuit to Airtel:
+        bfd_mode: aggressive
+        bw_config_mode: manual
+        bwc_enabled: true
+        cost: 128
+        description:
+        label_id: Ethernet Internet
+        link_bw_down: 30.0
+        link_bw_up: 10.0
+        lqm_config:
+        lqm_enabled: true
+        network_id: Airtel
+        network_type: publicwan
+        tags:
+        type: publicwan
+        use_for_application_reachability_probes:
+        use_for_controller_connections:
+        vpnlink_configuration:
+      Circuit to At&T:
+        bfd_mode: aggressive
+        bw_config_mode: manual
+        bwc_enabled: true
+        cost: 128
+        description:
+        label_id: Leased-Line
+        link_bw_down: 30.0
+        link_bw_up: 10.0
+        lqm_config:
+        lqm_enabled: true
+        network_id: At&T
+        network_type: privatewan
+        tags:
+        type: privatewan
+        use_for_application_reachability_probes:
+        use_for_controller_connections:
+        vpnlink_configuration:
+      Circuit to BSNL:
+        bfd_mode: aggressive
+        bw_config_mode: manual
+        bwc_enabled: true
+        cost: 128
+        description:
+        label_id: Internet DSL
+        link_bw_down: 30.0
+        link_bw_up: 10.0
+        lqm_config:
+        lqm_enabled: true
+        network_id: BSNL
+        network_type: publicwan
+        tags:
+        type: publicwan
+        use_for_application_reachability_probes:
+        use_for_controller_connections:
+        vpnlink_configuration:
+      Circuit to Jio:
+        bfd_mode: aggressive
+        bw_config_mode: manual
+        bwc_enabled: true
+        cost: 128
+        description:
+        label_id: Metro Ethernet
+        link_bw_down: 30.0
+        link_bw_up: 10.0
+        lqm_config:
+        lqm_enabled: true
+        network_id: Jio
+        network_type: privatewan
+        tags:
+        type: privatewan
+        use_for_application_reachability_probes:
+        use_for_controller_connections:
+        vpnlink_configuration:
+      Circuit to T-Mobile:
+        bfd_mode: aggressive
+        bw_config_mode: manual
+        bwc_enabled: true
+        cost: 128
+        description:
+        label_id: Metered 3G/4G/LTE Internet
+        link_bw_down: 30.0
+        link_bw_up: 10.0
+        lqm_config:
+        lqm_enabled: true
+        network_id: T-Mobile
+        network_type: publicwan
+        tags:
+        type: publicwan
+        use_for_application_reachability_probes:
+        use_for_controller_connections:
+        vpnlink_configuration:
+      Circuit to TestCKT-01:
+        bfd_mode: aggressive
+        bw_config_mode: manual
+        bwc_enabled: true
+        cost: 128
+        description:
+        label_id: Metered 5G Internet
+        link_bw_down: 30.0
+        link_bw_up: 10.0
+        lqm_config:
+        lqm_enabled: true
+        network_id: TestCKT-01
+        network_type: publicwan
+        tags:
+        type: publicwan
+        use_for_application_reachability_probes:
+        use_for_controller_connections:
+        vpnlink_configuration:
+      Circuit to Verizon:
+        bfd_mode: aggressive
+        bw_config_mode: manual
+        bwc_enabled: true
+        cost: 128
+        description:
+        label_id: MPLS
+        link_bw_down: 30.0
+        link_bw_up: 10.0
+        lqm_config:
+        lqm_enabled: true
+        network_id: Verizon
+        network_type: privatewan
+        tags:
+        type: privatewan
+        use_for_application_reachability_probes:
+        use_for_controller_connections:
+        vpnlink_configuration:
+      Circuit to Vodafone:
+        bfd_mode: aggressive
+        bw_config_mode: manual
+        bwc_enabled: true
+        cost: 128
+        description:
+        label_id: Private Fiber
+        link_bw_down: 30.0
+        link_bw_up: 10.0
+        lqm_config:
+        lqm_enabled: true
+        network_id: Vodafone
+        network_type: privatewan
+        tags:
+        type: privatewan
+        use_for_application_reachability_probes:
+        use_for_controller_connections:
+        vpnlink_configuration:
