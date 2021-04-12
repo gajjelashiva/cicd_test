@@ -20,7 +20,7 @@ sites v4.5:
         cluster_member_id:
         connected: false
         deployment_op:
-        description:
+        description: Updated by CI CD CB
         element_security_zones v2.0: []
         interfaces v4.9:
           '1':
