@@ -1,0 +1,62 @@
+--- /tmp/ci/2750/cicd_test/Test_final/config/BLR-UPGRADE-TEST-SITE.yml
++++ /tmp/ci/2750/BLR-UPGRADE-TEST-SITE_controller.yml
+@@ -1,8 +1,9 @@
+ ---
+ type: cloudgenix template
+ version: 1.0
+-# Created at 2021-04-12T16:12:47.613294Z
++# Created at 2021-04-12T16:36:29.674480Z
+ # by system_2750@soumyars.com
++# FROM_CLOUDBLADE
+ sites v4.5:
+   BLR-UPGRADE-TEST-SITE:
+     address:
+@@ -16,7 +17,7 @@
+     description:
+     element_cluster_role: SPOKE
+     elements v2.3:
+-      ION-3K-UpgradeTest:
++      Element 1:
+         admin_action:
+         admin_renew_state:
+         allowed_roles:
+@@ -26,15 +27,15 @@
+         cluster_member_id:
+         connected: true
+         deployment_op:
+-        description: Updated By CI CB
++        description:
+         element_security_zones v2.0: []
+         interfaces v4.9:
+           '1':
+-            admin_up: true
+-            attached_lan_networks:
+-            bound_interfaces:
+-            bypass_pair:
+-            description: Description updated by CI CB
++            admin_up: false
++            attached_lan_networks:
++            bound_interfaces:
++            bypass_pair:
++            description: ''
+             devicemgmt_policysetstack_id:
+             dhcp_relay:
+             directed_broadcast: false
+@@ -59,7 +60,7 @@
+             type: port
+             used_for: none
+           '2':
+-            admin_up: true
++            admin_up: false
+             attached_lan_networks:
+             bound_interfaces:
+             bypass_pair:
+@@ -88,7 +89,7 @@
+             type: port
+             used_for: none
+           '3':
+-            admin_up: true
++            admin_up: false
+             attached_lan_networks:
+             bound_interfaces:
+             bypass_pair:
