@@ -1,0 +1,22 @@
+--- /tmp/ci/2750/cicd_test/Test_element_iP_FIX/config/BLR-UPGRADE-TEST-SITE.yml
++++ /tmp/ci/2750/BLR-UPGRADE-TEST-SITE_controller.yml
+@@ -1,8 +1,9 @@
+ ---
+ type: cloudgenix template
+ version: 1.0
+-# Created at 2021-04-12T15:31:45.774570Z
++# Created at 2021-04-12T15:36:20.810356Z
+ # by system_2750@soumyars.com
++# FROM_CLOUDBLADE
+ sites v4.5:
+   BLR-UPGRADE-TEST-SITE:
+     address:
+@@ -34,7 +35,7 @@
+             attached_lan_networks:
+             bound_interfaces:
+             bypass_pair:
+-            description: 'Description updated by CI CB'
++            description: ''
+             devicemgmt_policysetstack_id:
+             dhcp_relay:
+             directed_broadcast: false
