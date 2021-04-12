@@ -409,4 +409,4 @@ sites v4.5:
         tags:
         type: privatewan
         use_for_application_reachability_probes:
-        use_for_controller_connections:ˇ
+        use_for_controller_connections:
