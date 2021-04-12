@@ -13,7 +13,7 @@ sites v4.5:
       street: Vidhansaudha
       street2:
     admin_state: disabled
-    description:
+    description: THis is the site used for update
     element_cluster_role: SPOKE
     elements v2.3: {}
     extended_tags:
