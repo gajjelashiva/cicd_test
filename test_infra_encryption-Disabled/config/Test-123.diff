@@ -1,0 +1,22 @@
+--- /tmp/ci/1081/cicd_test/test_infra_encryption-Disabled/config/Test-123.yml
++++ /tmp/ci/1081/BRANCH-BLR_controller.yml
+@@ -1,15 +1,16 @@
+ ---
+ type: cloudgenix template
+ version: 1.0
+-# Created at 2021-04-12T13:49:32.206900Z
++# Created at 2021-04-12T13:53:48.211714Z
+ # by system_1081@shiva.com
++# FROM_CLOUDBLADE
+ sites v4.5:
+   BRANCH-BLR:
+     address:
+-      city: Kolkata
++      city: Bengaluru
+       country: India
+       post_code:
+-      state: Bengal
++      state: Karnataka
+       street: Vidhansaudha
+       street2:
+     admin_state: disabled
