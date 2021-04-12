@@ -18,3 +18,37 @@ INFO: 04/12/2021 02:46:28 PM MESSAGE: Disabling site..
 INFO: 04/12/2021 02:46:29 PM MESSAGE: No Change for Site BEJING_TEST_SITE state (disabled).
 INFO: 04/12/2021 02:46:29 PM MESSAGE: Deleting Site BEJING_TEST_SITE..
 INFO: 04/12/2021 02:46:29 PM MESSAGE: DONE
+ERROR: 04/12/2021 03:31:46 PM ERROR: Element interfaces get failed: 
+REQUEST: GET /v4.9/api/tenants/2750/sites/16182410103110198/elements/16182410169380204/interfaces
+REQUEST HEADERS:
+	User-Agent: python-requests/2.25.1 (CGX SDK v5.4.3b1)
+	Accept-Encoding: gzip, deflate
+	Accept: application/json
+	Connection: keep-alive
+	X-Auth-Token: <SENSITIVE - NOT SHOWN BY DEFAULT>
+	Cookie: AUTH_TOKEN="<SENSITIVE - NOT SHOWN BY DEFAULT>"
+REQUEST BODY:
+{}
+
+RESPONSE: 400 Bad Request
+RESPONSE HEADERS:
+	Server: nginx
+	Date: Mon, 12 Apr 2021 15:31:46 GMT
+	Content-Length: 234
+	Connection: keep-alive
+RESPONSE DATA:
+{
+    "_etag": 0,
+    "_content_length": "0",
+    "_schema": 0,
+    "_created_on_utc": 0,
+    "_updated_on_utc": 0,
+    "_status_code": "400",
+    "_request_id": "1618241506123006800007623325853464267115",
+    "_error": [
+        {
+            "code": "ELEMENT_NOT_FOUND",
+            "message": "Element not found."
+        }
+    ]
+}
