@@ -1,0 +1,22 @@
+--- /tmp/ci/2750/cicd_test/Test_element/config/BLR-UPGRADE-TEST-SITE.yml
++++ /tmp/ci/2750/BLR-UPGRADE-TEST-SITE_controller.yml
+@@ -1,8 +1,9 @@
+ ---
+ type: cloudgenix template
+ version: 1.0
+-# Created at 2021-04-12T15:25:43.493454Z
++# Created at 2021-04-12T15:30:34.867907Z
+ # by system_2750@soumyars.com
++# FROM_CLOUDBLADE
+ sites v4.5:
+   BLR-UPGRADE-TEST-SITE:
+     address:
+@@ -26,7 +27,7 @@
+         cluster_member_id:
+         connected: true
+         deployment_op:
+-        description: Updated By CI CB
++        description:
+         element_security_zones v2.0: []
+         interfaces v4.9:
+           '1':
