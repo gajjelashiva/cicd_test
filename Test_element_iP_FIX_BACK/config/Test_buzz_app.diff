@@ -1,0 +1,18 @@
+--- /tmp/ci/2750/cicd_test/Test_element_iP_FIX_BACK/config/Test_buzz_app.yml
++++ /tmp/ci/2750/Test_buzz_app_controller.yml
+@@ -1,12 +1,13 @@
+ ---
+ type: cloudgenix template
+ version: 1.0
+-# Created at 2021-04-12T15:32:54.699516Z
++# Created at 2021-04-12T15:34:22.255743Z
+ # by system_2750@soumyars.com
++# FROM_CLOUDBLADE
+ sites v4.5:
+   Test_buzz_app:
+     address:
+-    admin_state: disabled
++    admin_state: active
+     description:
+     element_cluster_role: SPOKE
+     elements v2.3: {}
