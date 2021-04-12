@@ -23,3 +23,7 @@ INFO: 04/12/2021 04:28:06 PM MESSAGE:  Checking Machine 68171542-5148-7b26-b606-
 INFO: 04/12/2021 04:28:06 PM MESSAGE:   Unclaimed(allocated). Beginning Claim process..
 INFO: 04/12/2021 04:28:07 PM MESSAGE:   Machine 68171542-5148-7b26-b606-07d77cf234ac still claiming, waited so far 0 seconds out of 5.
 ERROR: 04/12/2021 04:28:13 PM ERROR: Machine 68171542-5148-7b26-b606-07d77cf234ac Claim took longer than 5 seconds. Exiting.
+INFO: 04/12/2021 04:28:19 PM MESSAGE: No Change for Site BLR-UPGRADE-TEST-SITE.
+INFO: 04/12/2021 04:28:19 PM MESSAGE:  No Change for Waninterface Circuit to Airtel.
+INFO: 04/12/2021 04:28:19 PM MESSAGE:   Element Serial: 68171542-5148-7b26-b606-07d77cf234ac not yet in requested state(s): ready, bound (is init). Waited so far 0 seconds out of 5.
+ERROR: 04/12/2021 04:28:25 PM ERROR: Element Serial: 68171542-5148-7b26-b606-07d77cf234ac state transition took longer than 5 seconds. Exiting.
