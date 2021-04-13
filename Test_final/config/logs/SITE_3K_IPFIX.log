@@ -10,3 +10,4 @@ INFO: 04/13/2021 05:38:50 AM MESSAGE:  Created waninterface Circuit to Verizon.
 INFO: 04/13/2021 05:38:51 AM MESSAGE:  Created waninterface Circuit to Vodafone.
 INFO: 04/13/2021 05:38:51 AM MESSAGE: No Change for Site SITE_3K_IPFIX state (active).
 INFO: 04/13/2021 05:38:51 AM MESSAGE: DONE
+INFO: 04/13/2021 06:01:57 AM Found 'CI_IGNORE' tag for site. Skipping site
