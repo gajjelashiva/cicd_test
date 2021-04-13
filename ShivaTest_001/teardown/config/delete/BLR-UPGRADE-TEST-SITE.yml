@@ -1,16 +1,22 @@
 ---
 type: cloudgenix template
 version: 1.0
-# Created at 2021-04-13T06:03:58.896945Z
+# Created at 2021-04-13T06:03:59.557525Z
 # by system_2750@soumyars.com
 sites v4.5:
-  BLR:
+  BLR-UPGRADE-TEST-SITE:
     address:
-    admin_state: disabled
+      city: Bengaluru
+      country: India
+      post_code:
+      state: Karnataka
+      street: EcoSpace
+      street2:
+    admin_state: active
     description:
     element_cluster_role: SPOKE
     elements v2.3:
-      DMQ_SPOKE_02:
+      ION-3K-UpgradeTest:
         admin_action:
         admin_renew_state:
         allowed_roles:
@@ -20,15 +26,15 @@ sites v4.5:
         cluster_member_id:
         connected: true
         deployment_op:
-        description:
+        description: Updated By CI CB
         element_security_zones v2.0: []
         interfaces v4.9:
           '1':
-            admin_up: false
+            admin_up: true
             attached_lan_networks:
             bound_interfaces:
             bypass_pair:
-            description: ''
+            description: Description updated by CI CB
             devicemgmt_policysetstack_id:
             dhcp_relay:
             directed_broadcast: false
@@ -53,7 +59,7 @@ sites v4.5:
             type: port
             used_for: none
           '2':
-            admin_up: false
+            admin_up: true
             attached_lan_networks:
             bound_interfaces:
             bypass_pair:
@@ -82,7 +88,7 @@ sites v4.5:
             type: port
             used_for: none
           '3':
-            admin_up: false
+            admin_up: true
             attached_lan_networks:
             bound_interfaces:
             bypass_pair:
@@ -255,35 +261,6 @@ sites v4.5:
             tags:
             type: port
             used_for: none
-          '9':
-            admin_up: false
-            attached_lan_networks:
-            bound_interfaces:
-            bypass_pair:
-            description: ''
-            devicemgmt_policysetstack_id:
-            dhcp_relay:
-            directed_broadcast: false
-            ethernet_port:
-              full_duplex: false
-              speed: 0
-            ipv4_config:
-            mac_address:
-            mtu: 1500
-            nat_address:
-            nat_pools:
-            nat_port: 0
-            nat_zone_id:
-            network_context_id:
-            parent:
-            pppoe_config:
-            scope: local
-            service_link_config:
-            site_wan_interface_ids:
-            sub_interface:
-            tags:
-            type: port
-            used_for: none
           controller 1:
             admin_up: true
             attached_lan_networks:
@@ -318,8 +295,8 @@ sites v4.5:
             tags:
             type: port
             used_for: none
-        l3_direct_private_wan_forwarding: true
-        l3_lan_forwarding: true
+        l3_direct_private_wan_forwarding: false
+        l3_lan_forwarding: false
         model_name: ion 3102v
         nat_policysetstack_id:
         network_policysetstack_id:
@@ -371,8 +348,8 @@ sites v4.5:
               router_id:
               stalepath_time: 120
           static v2.0: []
-        serial_number: 4210b512-5243-d410-01cb-e8bd6e482e14
-        software_version: 5.5.1-a44
+        serial_number: 68171542-5148-7b26-b606-07d77cf234ac
+        software_version: 5.2.3-b5
         spoke_ha_config:
         state: bound
         tags:
@@ -388,8 +365,8 @@ sites v4.5:
     extended_tags:
     location:
       description:
-      latitude: 0.0
-      longitude: 0.0
+      latitude: 12.96991
+      longitude: 77.59796
     nat_policysetstack_id: Default-NATPolicySetStack
     network_policysetstack_id: NetworkPolicySetStack
     policy_set_id:
@@ -397,4 +374,22 @@ sites v4.5:
     security_policyset_id:
     service_binding: Preset Domain
     tags:
-    - CI_IGNORE
+    waninterfaces v2.6:
+      Circuit to Airtel:
+        bfd_mode: aggressive
+        bw_config_mode: manual
+        bwc_enabled: true
+        cost: 128
+        description:
+        label_id: Ethernet Internet
+        link_bw_down: 30.0
+        link_bw_up: 10.0
+        lqm_config:
+        lqm_enabled: true
+        network_id: Airtel
+        network_type: publicwan
+        tags:
+        type: publicwan
+        use_for_application_reachability_probes:
+        use_for_controller_connections:
+        vpnlink_configuration:
