@@ -1,0 +1,12 @@
+INFO: 04/13/2021 05:38:48 AM MESSAGE: Created Site SITE_3K_IPFIX.
+INFO: 04/13/2021 05:38:48 AM MESSAGE:  Created waninterface Circuit to AT&T.
+INFO: 04/13/2021 05:38:48 AM MESSAGE:  Created waninterface Circuit to Airtel.
+INFO: 04/13/2021 05:38:49 AM MESSAGE:  Created waninterface Circuit to At&T.
+INFO: 04/13/2021 05:38:49 AM MESSAGE:  Created waninterface Circuit to BSNL.
+INFO: 04/13/2021 05:38:49 AM MESSAGE:  Created waninterface Circuit to Jio.
+INFO: 04/13/2021 05:38:50 AM MESSAGE:  Created waninterface Circuit to T-Mobile.
+INFO: 04/13/2021 05:38:50 AM MESSAGE:  Created waninterface Circuit to TestCKT-01.
+INFO: 04/13/2021 05:38:50 AM MESSAGE:  Created waninterface Circuit to Verizon.
+INFO: 04/13/2021 05:38:51 AM MESSAGE:  Created waninterface Circuit to Vodafone.
+INFO: 04/13/2021 05:38:51 AM MESSAGE: No Change for Site SITE_3K_IPFIX state (active).
+INFO: 04/13/2021 05:38:51 AM MESSAGE: DONE
