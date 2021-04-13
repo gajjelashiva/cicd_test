@@ -35,3 +35,10 @@ INFO: 04/13/2021 06:25:27 AM MESSAGE:    No Change for NTP 16182931921850167.
 INFO: 04/13/2021 06:25:27 AM MESSAGE:    No Change for Toolkit 16182932077420027.
 INFO: 04/13/2021 06:25:27 AM MESSAGE: No Change for Site BLR-UPGRADE-TEST-SITE state (active).
 INFO: 04/13/2021 06:25:27 AM MESSAGE: DONE
+INFO: 04/13/2021 06:40:57 AM MESSAGE: Created Site BLR-UPGRADE-TEST-SITE.
+INFO: 04/13/2021 06:40:58 AM MESSAGE:  Created waninterface Circuit to Airtel.
+INFO: 04/13/2021 06:40:59 AM MESSAGE:  Machine 68171542-5148-7b26-b606-07d77cf234ac is not CLAIMED, attempting to claim..
+INFO: 04/13/2021 06:40:59 AM MESSAGE:  Checking Machine 68171542-5148-7b26-b606-07d77cf234ac..
+INFO: 04/13/2021 06:40:59 AM MESSAGE:   Unclaimed(allocated). Beginning Claim process..
+INFO: 04/13/2021 06:40:59 AM MESSAGE:   Machine 68171542-5148-7b26-b606-07d77cf234ac still claiming, waited so far 0 seconds out of 5.
+ERROR: 04/13/2021 06:41:05 AM ERROR: Machine 68171542-5148-7b26-b606-07d77cf234ac Claim took longer than 5 seconds. Exiting.
