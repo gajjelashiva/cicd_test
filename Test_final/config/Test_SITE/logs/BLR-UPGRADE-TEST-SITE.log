@@ -32,3 +32,13 @@ INFO: 04/13/2021 05:53:31 AM MESSAGE: Created Site BLR-UPGRADE-TEST-SITE.
 INFO: 04/13/2021 05:53:32 AM MESSAGE:  Created waninterface Circuit to Airtel.
 INFO: 04/13/2021 05:53:32 AM MESSAGE:   Element Serial: 68171542-5148-7b26-b606-07d77cf234ac not yet in requested state(s): ready, bound (is inventory_get_pending). Waited so far 0 seconds out of 5.
 ERROR: 04/13/2021 05:53:38 AM ERROR: Element Serial: 68171542-5148-7b26-b606-07d77cf234ac state transition took longer than 5 seconds. Exiting.
+INFO: 04/13/2021 05:53:53 AM MESSAGE: No Change for Site BLR-UPGRADE-TEST-SITE.
+INFO: 04/13/2021 05:53:54 AM MESSAGE:  No Change for Waninterface Circuit to Airtel.
+INFO: 04/13/2021 05:53:54 AM MESSAGE:  Element: Code is at correct version 5.2.3-b5.
+INFO: 04/13/2021 05:53:55 AM MESSAGE:   Assigning Element Serial: 68171542-5148-7b26-b606-07d77cf234ac.
+INFO: 04/13/2021 05:53:57 AM MESSAGE:   Element Serial: 68171542-5148-7b26-b606-07d77cf234ac not yet in requested state(s): bound (is bound_in_progress). Waited so far 0 seconds out of 5.
+ERROR: 04/13/2021 05:54:03 AM ERROR: Element Serial: 68171542-5148-7b26-b606-07d77cf234ac state transition took longer than 5 seconds. Exiting.
+INFO: 04/13/2021 05:54:14 AM MESSAGE: No Change for Site BLR-UPGRADE-TEST-SITE.
+INFO: 04/13/2021 05:54:14 AM MESSAGE:  No Change for Waninterface Circuit to Airtel.
+INFO: 04/13/2021 05:54:15 AM MESSAGE:   Element ION-3K-UpgradeTest not yet in requested state(s): ready, bound (is bound_in_progress). Waited so far 0 seconds out of 5.
+ERROR: 04/13/2021 05:54:21 AM ERROR: Element ION-3K-UpgradeTest state transition took longer than 5 seconds. Exiting.
