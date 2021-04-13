@@ -5,27 +5,13 @@
  type: cloudgenix template
  version: 1.0
 -# Created at 2021-04-12T16:12:47.613294Z
-+# Created at 2021-04-12T16:36:29.674480Z
++# Created at 2021-04-13T05:39:06.714769Z
  # by system_2750@soumyars.com
 +# FROM_CLOUDBLADE
  sites v4.5:
    BLR-UPGRADE-TEST-SITE:
      address:
-@@ -16,7 +17,7 @@
-     description:
-     element_cluster_role: SPOKE
-     elements v2.3:
--      ION-3K-UpgradeTest:
-+      Element 1:
-         admin_action:
-         admin_renew_state:
-         allowed_roles:
-@@ -26,15 +27,15 @@
-         cluster_member_id:
-         connected: true
-         deployment_op:
--        description: Updated By CI CB
-+        description:
+@@ -30,11 +31,11 @@
          element_security_zones v2.0: []
          interfaces v4.9:
            '1':
