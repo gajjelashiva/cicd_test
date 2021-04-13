@@ -79,3 +79,22 @@ INFO: 04/13/2021 06:42:49 AM MESSAGE:    No Change for NTP 16182960593960193.
 INFO: 04/13/2021 06:42:49 AM MESSAGE:    No Change for Toolkit 16182960748290146.
 INFO: 04/13/2021 06:42:49 AM MESSAGE: No Change for Site BLR-UPGRADE-TEST-SITE state (active).
 INFO: 04/13/2021 06:42:49 AM MESSAGE: DONE
+INFO: 04/13/2021 06:42:59 AM MESSAGE: No Change for Site BLR-UPGRADE-TEST-SITE.
+INFO: 04/13/2021 06:42:59 AM MESSAGE:  No Change for Waninterface Circuit to Airtel.
+INFO: 04/13/2021 06:42:59 AM MESSAGE:  Element: Code is at correct version 5.2.3-b5.
+INFO: 04/13/2021 06:42:59 AM MESSAGE:   No Change for Element ION-3K-UpgradeTest.
+INFO: 04/13/2021 06:43:00 AM MESSAGE:    No Change for Interface 1.
+INFO: 04/13/2021 06:43:00 AM MESSAGE:    No Change for Interface 2.
+INFO: 04/13/2021 06:43:00 AM MESSAGE:    No Change for Interface controller 1.
+INFO: 04/13/2021 06:43:00 AM MESSAGE:    No Change for Interface 3.
+INFO: 04/13/2021 06:43:00 AM MESSAGE:    No Change for Interface 4.
+INFO: 04/13/2021 06:43:00 AM MESSAGE:    No Change for Interface 5.
+INFO: 04/13/2021 06:43:00 AM MESSAGE:    No Change for Interface 6.
+INFO: 04/13/2021 06:43:00 AM MESSAGE:    No Change for Interface 7.
+INFO: 04/13/2021 06:43:01 AM MESSAGE:    No Change for Interface 8.
+INFO: 04/13/2021 06:43:01 AM MESSAGE:    No Change for Spoke HA in Element ION-3K-UpgradeTest.
+INFO: 04/13/2021 06:43:01 AM MESSAGE:    No Change for BGP Global Config 16182961592730233.
+INFO: 04/13/2021 06:43:01 AM MESSAGE:    No Change for NTP 16182960593960193.
+INFO: 04/13/2021 06:43:01 AM MESSAGE:    No Change for Toolkit 16182960748290146.
+INFO: 04/13/2021 06:43:01 AM MESSAGE: No Change for Site BLR-UPGRADE-TEST-SITE state (active).
+INFO: 04/13/2021 06:43:02 AM MESSAGE: DONE

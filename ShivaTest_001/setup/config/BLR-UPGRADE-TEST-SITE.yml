@@ -1,7 +1,7 @@
 ---
 type: cloudgenix template
 version: 1.0
-# Created at 2021-04-13T06:42:51.262145Z
+# Created at 2021-04-13T06:43:03.283949Z
 # by system_2750@soumyars.com
 sites v4.5:
   BLR-UPGRADE-TEST-SITE:
@@ -24,7 +24,7 @@ sites v4.5:
         - SPOKE
         cluster_insertion_mode:
         cluster_member_id:
-        connected: false
+        connected: true
         deployment_op:
         description: Updated By CI CB
         element_security_zones v2.0: []

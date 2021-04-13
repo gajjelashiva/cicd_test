@@ -4,45 +4,19 @@
  ---
  type: cloudgenix template
  version: 1.0
--# Created at 2021-04-13T06:03:59.557525Z
-+# Created at 2021-04-13T06:42:45.366983Z
+-# Created at 2021-04-13T06:42:51.262145Z
++# Created at 2021-04-13T06:42:57.893927Z
  # by system_2750@soumyars.com
 +# FROM_CLOUDBLADE
  sites v4.5:
    BLR-UPGRADE-TEST-SITE:
      address:
-@@ -30,11 +31,11 @@
+@@ -24,7 +25,7 @@
+         - SPOKE
+         cluster_insertion_mode:
+         cluster_member_id:
+-        connected: false
++        connected: true
+         deployment_op:
+         description: Updated By CI CB
          element_security_zones v2.0: []
-         interfaces v4.9:
-           '1':
--            admin_up: true
--            attached_lan_networks:
--            bound_interfaces:
--            bypass_pair:
--            description: Description updated by CI CB
-+            admin_up: false
-+            attached_lan_networks:
-+            bound_interfaces:
-+            bypass_pair:
-+            description: ''
-             devicemgmt_policysetstack_id:
-             dhcp_relay:
-             directed_broadcast: false
-@@ -59,7 +60,7 @@
-             type: port
-             used_for: none
-           '2':
--            admin_up: true
-+            admin_up: false
-             attached_lan_networks:
-             bound_interfaces:
-             bypass_pair:
-@@ -88,7 +89,7 @@
-             type: port
-             used_for: none
-           '3':
--            admin_up: true
-+            admin_up: false
-             attached_lan_networks:
-             bound_interfaces:
-             bypass_pair:
