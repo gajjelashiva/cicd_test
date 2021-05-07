@@ -1,0 +1,22 @@
+--- /tmp/ci/1081/cicd_test/test_infra_encryption-Disabled/config/Azure-Test-SITE.yml
++++ /tmp/ci/1081/Azure-Test-SITE_controller.yml
+@@ -1,8 +1,9 @@
+ ---
+ type: cloudgenix template
+ version: 1.0
+-# Created at 2021-04-12T13:49:31.851166Z
++# Created at 2021-05-07T10:08:11.980673Z
+ # by system_1081@shiva.com
++# FROM_CLOUDBLADE
+ sites v4.5:
+   Azure-Test-SITE:
+     address:
+@@ -11,7 +12,7 @@
+       post_code:
+       state: Telangana
+       street: chickpet
+-      street2:
++      street2: street
+     admin_state: disabled
+     description:
+     element_cluster_role: SPOKE
