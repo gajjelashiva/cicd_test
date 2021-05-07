@@ -1,17 +1,18 @@
 --- /tmp/ci/1081/cicd_test/test_infra_encryption-Disabled/config/Azure-Test-SITE.yml
 +++ /tmp/ci/1081/Azure-Test-SITE_controller.yml
-@@ -1,8 +1,9 @@
+@@ -1,17 +1,18 @@
  ---
  type: cloudgenix template
  version: 1.0
 -# Created at 2021-04-12T13:49:31.851166Z
-+# Created at 2021-05-07T10:08:39.908222Z
++# Created at 2021-05-07T10:10:10.213507Z
  # by system_1081@shiva.com
 +# FROM_CLOUDBLADE
  sites v4.5:
    Azure-Test-SITE:
      address:
-@@ -10,8 +11,8 @@
+-      city: Hyderabad
++      city: ''
        country: India
        post_code:
        state: Telangana
