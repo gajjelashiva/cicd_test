@@ -5,17 +5,19 @@
  type: cloudgenix template
  version: 1.0
 -# Created at 2021-04-12T13:49:31.851166Z
-+# Created at 2021-05-07T10:08:11.980673Z
++# Created at 2021-05-07T10:08:39.908222Z
  # by system_1081@shiva.com
 +# FROM_CLOUDBLADE
  sites v4.5:
    Azure-Test-SITE:
      address:
-@@ -11,7 +12,7 @@
+@@ -10,8 +11,8 @@
+       country: India
        post_code:
        state: Telangana
-       street: chickpet
+-      street: chickpet
 -      street2:
++      street: ''
 +      street2: street
      admin_state: disabled
      description:
