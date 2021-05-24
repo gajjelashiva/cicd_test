@@ -268,3 +268,8 @@ WARNING: 05/24/2021 07:01:41 AM WARNING: Site WAN Interface is missing a name. P
 WARNING: 05/24/2021 07:01:42 AM WARNING: Site WAN Interface is missing a name. Please correct this in UI. Setting to "Circuit to INTERNET1" in YAML file, but this may cause issues if configuration is re-applied to site.
 INFO: 05/24/2021 07:01:43 AM MESSAGE: No Change for Site zscaler_test_site-anu.
 INFO: 05/24/2021 07:01:43 AM MESSAGE:  No Change for Waninterface Circuit to BSNL.
+WARNING: 05/24/2021 07:02:58 AM WARNING: Site WAN Interface is missing a name. Please correct this in UI. Setting to "Circuit to INTERNET3" in YAML file, but this may cause issues if configuration is re-applied to site.
+WARNING: 05/24/2021 07:02:58 AM WARNING: Site WAN Interface is missing a name. Please correct this in UI. Setting to "Circuit to INTERNET2" in YAML file, but this may cause issues if configuration is re-applied to site.
+WARNING: 05/24/2021 07:02:58 AM WARNING: Site WAN Interface is missing a name. Please correct this in UI. Setting to "Circuit to INTERNET1" in YAML file, but this may cause issues if configuration is re-applied to site.
+INFO: 05/24/2021 07:03:00 AM MESSAGE: Updated Site zscaler_test_site-anu (Etag 76 -> 77).
+INFO: 05/24/2021 07:03:00 AM MESSAGE:  No Change for Waninterface Circuit to BSNL.
