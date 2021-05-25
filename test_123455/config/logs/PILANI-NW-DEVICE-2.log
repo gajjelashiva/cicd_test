@@ -1,0 +1,15 @@
+WARNING: 05/25/2021 12:19:38 PM WARNING: Site WAN Interface is missing a name. Please correct this in UI. Setting to "Circuit to INTERNET7" in YAML file, but this may cause issues if configuration is re-applied to site.
+WARNING: 05/25/2021 12:19:38 PM WARNING: Site WAN Interface is missing a name. Please correct this in UI. Setting to "Circuit to INTERNET6" in YAML file, but this may cause issues if configuration is re-applied to site.
+WARNING: 05/25/2021 12:19:38 PM WARNING: Site WAN Interface is missing a name. Please correct this in UI. Setting to "Circuit to INTERNET5" in YAML file, but this may cause issues if configuration is re-applied to site.
+WARNING: 05/25/2021 12:19:38 PM WARNING: Site WAN Interface is missing a name. Please correct this in UI. Setting to "Circuit to INTERNET4" in YAML file, but this may cause issues if configuration is re-applied to site.
+WARNING: 05/25/2021 12:19:38 PM WARNING: Site WAN Interface is missing a name. Please correct this in UI. Setting to "Circuit to INTERNET3" in YAML file, but this may cause issues if configuration is re-applied to site.
+WARNING: 05/25/2021 12:19:38 PM WARNING: Site WAN Interface is missing a name. Please correct this in UI. Setting to "Circuit to INTERNET2" in YAML file, but this may cause issues if configuration is re-applied to site.
+WARNING: 05/25/2021 12:19:38 PM WARNING: Site WAN Interface is missing a name. Please correct this in UI. Setting to "Circuit to INTERNET1" in YAML file, but this may cause issues if configuration is re-applied to site.
+INFO: 05/25/2021 12:19:40 PM MESSAGE: No Change for Site PILANI-NW-DEVICE-2.
+INFO: 05/25/2021 12:19:40 PM MESSAGE:  Updated Waninterface Circuit to INTERNET1 (Etag 1 -> 2).
+INFO: 05/25/2021 12:19:40 PM MESSAGE:  Updated Waninterface Circuit to INTERNET2 (Etag 1 -> 2).
+INFO: 05/25/2021 12:19:40 PM MESSAGE:  Updated Waninterface Circuit to INTERNET3 (Etag 1 -> 2).
+INFO: 05/25/2021 12:19:40 PM MESSAGE:  Updated Waninterface Circuit to INTERNET4 (Etag 1 -> 2).
+INFO: 05/25/2021 12:19:41 PM MESSAGE:  Updated Waninterface Circuit to INTERNET5 (Etag 1 -> 2).
+INFO: 05/25/2021 12:19:41 PM MESSAGE:  Updated Waninterface Circuit to INTERNET6 (Etag 1 -> 2).
+INFO: 05/25/2021 12:19:41 PM MESSAGE:  Updated Waninterface Circuit to INTERNET7 (Etag 1 -> 2).
