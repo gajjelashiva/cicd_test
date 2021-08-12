@@ -1,8 +1,3 @@
----
-type: cloudgenix template
-version: 1.0
-# Created at 2021-03-30T20:32:52.487385Z
-# by system_1100@testaccount.com
 sites v4.5:
   zscaler_test_site-anu:
     address:
@@ -348,7 +343,7 @@ sites v4.5:
               router_id:
               stalepath_time: 120
           static v2.0: []
-        serial_number: 5ddf1542-d33a-d44e-d291-763129e2e0ab
+        serial_number: 30c11542-c824-f63b-947a-6efe68b85cbf
         software_version: 5.4.3-a10
         spoke_ha_config:
         state: bound
@@ -394,3 +389,5 @@ sites v4.5:
         use_for_application_reachability_probes:
         use_for_controller_connections:
         vpnlink_configuration:
+type: cloudgenix template
+version: 1.0

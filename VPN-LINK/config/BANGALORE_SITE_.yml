@@ -1,8 +1,3 @@
----
-type: cloudgenix template
-version: 1.0
-# Created at 2021-02-18T08:44:44.472949Z
-# by system_100@cyberdyne.com
 sites v4.5:
   BANGALORE_SITE_:
     address:
@@ -22,3 +17,5 @@ sites v4.5:
     security_policyset_id:
     service_binding: Preset Domain
     tags:
+type: cloudgenix template
+version: 1.0

@@ -1,8 +1,3 @@
----
-type: cloudgenix template
-version: 1.0
-# Created at 2021-03-30T20:32:49.845266Z
-# by system_1100@testaccount.com
 sites v4.5:
   MUMBAI-NW-DEVICE-3:
     address:
@@ -383,7 +378,7 @@ sites v4.5:
               router_id:
               stalepath_time: 120
           static v2.0: []
-        serial_number: dfa01542-c92e-ee08-2562-c066d104cf65
+        serial_number: 30c11542-c824-f63b-947a-6efe68b85cbf
         software_version: 5.4.3-b9
         spoke_ha_config:
         state: bound
@@ -536,3 +531,5 @@ sites v4.5:
         use_for_application_reachability_probes:
         use_for_controller_connections:
         vpnlink_configuration:
+type: cloudgenix template
+version: 1.0

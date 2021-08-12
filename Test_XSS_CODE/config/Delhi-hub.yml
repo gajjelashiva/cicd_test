@@ -1,8 +1,3 @@
----
-type: cloudgenix template
-version: 1.0
-# Created at 2021-03-03T05:57:07.423649Z
-# by system_100@cyberdyne.com
 sites v4.5:
   Delhi-hub:
     address:
@@ -211,7 +206,7 @@ sites v4.5:
               prefix_filter_list:
               tags:
           static v2.0: []
-        serial_number: 83411542-35f9-dbee-b26a-9d0cbd67c230
+        serial_number: 30c11542-c824-f63b-947a-6efe68b85cbf
         software_version: 5.4.3-b9
         spoke_ha_config:
         state: bound
@@ -261,3 +256,5 @@ sites v4.5:
         use_for_application_reachability_probes:
         use_for_controller_connections:
         vpnlink_configuration:
+type: cloudgenix template
+version: 1.0

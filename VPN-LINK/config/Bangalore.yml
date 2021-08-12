@@ -1,8 +1,3 @@
----
-type: cloudgenix template
-version: 1.0
-# Created at 2021-02-18T08:44:44.687678Z
-# by system_100@cyberdyne.com
 sites v4.5:
   Bangalore:
     address:
@@ -65,3 +60,5 @@ sites v4.5:
         use_for_application_reachability_probes:
         use_for_controller_connections:
         vpnlink_configuration:
+type: cloudgenix template
+version: 1.0

@@ -1,8 +1,3 @@
----
-type: cloudgenix template
-version: 1.0
-# Created at 2021-02-16T16:34:44.017740Z
-# by system_100@cyberdyne.com
 sites v4.5:
   Chennai:
     address:
@@ -318,7 +313,7 @@ sites v4.5:
               router_id:
               stalepath_time: 120
           static v2.0: []
-        serial_number: a28d1542-f610-abd1-c741-97a1cd6d0045
+        serial_number: 30c11542-c824-f63b-947a-6efe68b85cbf
         software_version: 5.4.3-b9
         spoke_ha_config:
           cluster_id: Test-HA
@@ -599,7 +594,7 @@ sites v4.5:
               router_id:
               stalepath_time: 120
           static v2.0: []
-        serial_number: b8161542-0e2a-3868-e7c9-8e50ebf99878
+        serial_number: 29ff1542-447b-4e21-1681-cfb823cabc4a
         software_version: 5.4.3-b9
         spoke_ha_config:
           cluster_id: Test-HA
@@ -655,3 +650,5 @@ sites v4.5:
         use_for_application_reachability_probes:
         use_for_controller_connections:
         vpnlink_configuration:
+type: cloudgenix template
+version: 1.0

@@ -1,8 +1,3 @@
----
-type: cloudgenix template
-version: 1.0
-# Created at 2021-01-29T04:57:08.466453Z
-# by system_100@cyberdyne.com
 sites v4.5:
   Pune:
     address:
@@ -28,3 +23,5 @@ sites v4.5:
     security_policyset_id:
     service_binding: Preset Domain
     tags:
+type: cloudgenix template
+version: 1.0
